@@ -2,7 +2,7 @@
 
 In this project is discribe  arduino component review.
 
-- Light  sensor
+- [Light  sensor](https://github.com/RPSTD/component101/tree/main/light%20sensor)
 - Motion  sensor
 - Temperature  sensor
 - Magnetic fields  sensor
