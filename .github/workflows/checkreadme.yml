@@ -1,0 +1,44 @@
+name: Check PR and README
+
+on:
+  pull_request:
+    types: [labeled]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Check labels
+        id: check_labels
+        uses: octokit/request-action@v2.x
+        with:
+          route: GET /repos/:owner/:repo/issues/:pull_number/labels
+          owner: ${{ github.repository_owner }}
+          repo: ${{ github.event.repository.name }}
+          pull_number: ${{ github.event.pull_request.number }}
+
+      - name: Check README changes
+        id: check_readme
+        uses: dschep/only-changed-files@v2.2
+        with:
+          files: README.md
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check main README changes
+        id: check_main_readme
+        run: |
+          git diff --name-only origin/main HEAD | grep -q "README.md"
+          echo "::set-output name=changed::true"
+        if: ${{ steps.check_readme.outputs.any_changed == 'true' }}
+
+      - name: Comment on PR
+        uses: peter-evans/create-or-update-comment@v1
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            Step 1 passed
+        if: ${{ steps.check_labels.outputs.json =~ 'enhancement' && steps.check_main_readme.outputs.changed == 'true' }}
