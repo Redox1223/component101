@@ -1,6 +1,7 @@
 name: Super-Linter
 
-on: push
+on:
+  push:
 
 jobs:
   super-lint:
@@ -15,3 +16,8 @@ jobs:
         env:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VALIDATE_ALL_CODEBASE: true
+          DEFAULT_WORKSPACE: ${{ github.workspace }}
+          LOG_LEVEL: debug
+          VALIDATE_YAML: true
+          AUTO_FIX: true
