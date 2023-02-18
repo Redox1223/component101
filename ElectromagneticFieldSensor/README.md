@@ -5,30 +5,13 @@
 - An EMF detector detects radiation by examining the non-ionizing radiation emitted by electromagnetic device and household appliences.
 - When an EMF detector detects any radiation,it will show a reading that describes the radiation's strength or weakness
 
-<table>
-<tr>
-<th>Arduino</th>
-<th>Antenna</th>
-<th>Indicator LED</th>
-</tr>
-<tr>
-<td>GRN </td>
-<td> </td>
-<td>-ve </td>
-</tr>
-<tr>
-<td>D11 </td>
-<td>To Antenna wire with 10k resistor</td>
-<td></td>
-</tr>
-<tr>
-<td>A0 </td>
-<td> </td>
-<td> To +ve with 220 resistor </td>
-</tr>
-</table>
-<br>
-<img src="IMG/ElectromagneticFieldSensor.jpeg">
+| Arduino | Antenna                           | Indicator LED            |
+| ------- | --------------------------------- | ------------------------ |
+| GRN     |                                   | -ve                      |
+| D11     | To Antenna wire with 10k resistor |
+| A0      |                                   | To +ve with 220 resistor |
+
+![ElectromagneticFieldSensor](IMG/ElectromagneticFieldSensor.jpeg)
 
 ## Applications of EMF Detector
 
