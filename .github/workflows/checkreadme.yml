@@ -14,12 +14,13 @@ jobs:
 
       - name: Check labels
         id: check_labels
-        uses: octokit/request-action@v2.1.0
+        uses: octokit/request-action@v2.x
         with:
           route: GET /repos/:owner/:repo/issues/:pull_number/labels
           owner: ${{ github.repository_owner }}
           repo: ${{ github.event.repository.name }}
           pull_number: ${{ github.event.pull_request.number }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Check README changes
         id: check_readme
