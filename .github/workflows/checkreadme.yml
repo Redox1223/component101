@@ -23,7 +23,7 @@ jobs:
 
       - name: Check README changes
         id: check_readme
-        uses: dschep/only-changed-files@v2.2
+        uses: tj-actions/only-changed-files@v35.5.5
         with:
           files: README.md
           token: ${{ secrets.GITHUB_TOKEN }}
