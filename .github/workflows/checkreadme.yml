@@ -41,4 +41,4 @@ jobs:
           issue-number: ${{ github.event.pull_request.number }}
           body: |
             Step 1 passed
-        if: ${{ steps.check_labels.outputs.json =~ 'enhancement' && steps.check_main_readme.outputs.changed == 'true' }}
+        if: ${{ steps.check_labels.outputs.json == 'enhancement' && steps.check_main_readme.outputs.changed == 'true' }}
