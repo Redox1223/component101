@@ -14,16 +14,17 @@ jobs:
 
       - name: Check labels
         id: check_labels
-        uses: octokit/request-action@v2.x
+        uses: octokit/request-action@v2.1.0
         with:
           route: GET /repos/:owner/:repo/issues/:pull_number/labels
           owner: ${{ github.repository_owner }}
           repo: ${{ github.event.repository.name }}
           pull_number: ${{ github.event.pull_request.number }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Check README changes
         id: check_readme
-        uses: dschep/only-changed-files@v2.2
+        uses: tj-actions/changed-files@v35.5.5
         with:
           files: README.md
           token: ${{ secrets.GITHUB_TOKEN }}
@@ -33,12 +34,14 @@ jobs:
         run: |
           git diff --name-only origin/main HEAD | grep -q "README.md"
           echo "::set-output name=changed::true"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         if: ${{ steps.check_readme.outputs.any_changed == 'true' }}
 
       - name: Comment on PR
-        uses: peter-evans/create-or-update-comment@v1
+        uses: peter-evans/create-or-update-comment@v2.1.1
         with:
           issue-number: ${{ github.event.pull_request.number }}
           body: |
             Step 1 passed
-        if: ${{ steps.check_labels.outputs.json =~ 'enhancement' && steps.check_main_readme.outputs.changed == 'true' }}
+        if: ${{ contains(steps.check_labels.outputs.json, 'enhancement') && steps.check_main_readme.outputs.changed == 'true' }}
