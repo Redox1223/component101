@@ -45,4 +45,3 @@ jobs:
             Step 1 passed
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        if: ${{ contains(steps.check_labels.outputs.json, 'enhancement') && steps.check_main_readme.outputs.changed == 'true' }}
