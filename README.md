@@ -30,7 +30,7 @@ In this project is discribe arduino component review.
 | C0024 | [Metal Touch Sensor](https://github.com/RPSTD/component101/tree/main/MetalTouchSensor)                       | ✅     |
 | C0025 | Magnetic Dry Reed Switch                                                                                     |
 | C0026 | Logic Level Shifter                                                                                          |
-| C0027 | Knock Sensor                                                                                                 |
+| C0027 | [Knock Sensor](https://github.com/RPSTD/component101/tree/main/KnockSensor)                                  | ✅     |
 | C0028 | Joystick Module                                                                                              |
 | C0029 | infrared(IR) Transmitter                                                                                     |
 | C0030 | infrared(IR) Sensor                                                                                          |
