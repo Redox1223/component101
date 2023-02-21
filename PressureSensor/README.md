@@ -7,6 +7,8 @@
 
  ![Sensor Kachel](IMG/SensorKachel.jpg)
 
+![SensorKachel](IMG/SensorKachel.jpg)
+
 - Board mount sensors for gage, (bidirectional) differential, absolute and barometric pressure with analog or digital output
 
 ## Pressure sensor modules
