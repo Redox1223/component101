@@ -52,8 +52,8 @@ In this project is discribe arduino component review.
 | C0046 | [GSM Module](https://github.com/RPSTD/component101/tree/main/GSMmodule)                                      | ✅     |
 | C0047 | Flinger Print Scanner                                                                                        |
 | C0048 | QR Reader                                                                                                    |
-| c0049 | Gyroscope                                                                                                    |
-| c0050 | Wi-Fi Module                                                                                                 |
+| C0049 | Gyroscope                                                                                                    |
+| C0050 | Wi-Fi Module                                                                                                 |
 
 ## License
 
