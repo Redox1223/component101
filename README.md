@@ -34,7 +34,7 @@ In this project is discribe arduino component review.
 | C0028 | Joystick Module                                                                                              |✅
 | C0029 | infrared(IR) Transmitter                                                                                      |✅
 | C0030 | infrared(IR) Sensor                                                                                          |✅
-| C0031 | High-Voltage Relay Module                                                                                    |
+| C0031 | High-Voltage Relay Module                                                                                    |✅  
 | C0032 | High Sensitivity Microphone sensor                                                                           |
 | C0033 | [Heatbeat/Pulse Sensor](https://github.com/RPSTD/component101/tree/main/PulseSensor)                         | ✅     |
 | C0034 | Flamem IR Sensor                                                                                             |
@@ -52,6 +52,8 @@ In this project is discribe arduino component review.
 | C0046 | [GSM Module](https://github.com/RPSTD/component101/tree/main/GSMmodule)                                      | ✅     |
 | C0047 | Flinger Print Scanner                                                                                        |
 | C0048 | QR Reader                                                                                                    |
+| C0049 | Gyroscope                                                                                                    |
+| C0050 | Wi-Fi Module                                                                                                 |
 
 ## License
 
