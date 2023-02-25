@@ -35,7 +35,7 @@ In this project is discribe arduino component review.
 | C0029 | infrared(IR) Transmitter                                                                                      |✅
 | C0030 | infrared(IR) Sensor                                                                                          |✅
 | C0031 | High-Voltage Relay Module                                                                                    |✅  
-| C0032 | High Sensitivity Microphone sensor                                                                           |
+| C0032 | High Sensitivity Microphone sensor                                                                           | ✅ 
 | C0033 | [Heatbeat/Pulse Sensor](https://github.com/RPSTD/component101/tree/main/PulseSensor)                         | ✅     |
 | C0034 | Flamem IR Sensor                                                                                             |
 | C0035 | Active piezo-Buzzer Module                                                                                   |
