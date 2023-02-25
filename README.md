@@ -37,7 +37,7 @@ In this project is discribe arduino component review.
 | C0031 | High-Voltage Relay Module                                                                                    |✅  
 | C0032 | High Sensitivity Microphone sensor                                                                           | ✅ 
 | C0033 | [Heatbeat/Pulse Sensor](https://github.com/RPSTD/component101/tree/main/PulseSensor)                         | ✅     |
-| C0034 | Flamem IR Sensor                                                                                             |
+| C0034 | Flamem IR Sensor                                                                                             |✅ 
 | C0035 | Active piezo-Buzzer Module                                                                                   |
 | C0036 | Ardiuno MKR 1000 WiFi                                                                                        |
 | C0037 | DC Moters                                                                                                    |
