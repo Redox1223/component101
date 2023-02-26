@@ -2,58 +2,58 @@
 
 In this project is discribe arduino component review.
 
-| No    | Component                                                                                                    | Status |
-| ----- | ------------------------------------------------------------------------------------------------------------ | ------ |
-| C0001 | [Light sensor](https://github.com/RPSTD/component101/tree/main/LightSensor)                                  | ✅     |
-| C0002 | [Motion sensor](https://github.com/RPSTD/component101/tree/main/MotionSensor)                                | ✅     |
-| C0003 | [Temperature sensor](https://github.com/RPSTD/component101/tree/main/TemperatureSensor)                      | ✅     |
-| C0004 | [Magnetic fields sensor](https://github.com/RPSTD/component101/tree/main/MagneticFeildSensor)                | ✅     |
-| C0005 | Gravity sensor                                                                                               |
-| C0006 | [Humidity sensor](https://github.com/RPSTD/component101/tree/main/HumiditySensor)                            | ✅     |
-| C0007 | [Moisture sensor](https://github.com/RPSTD/component101/tree/main/MoistureSensor)                            | ✅     |
-| C0008 | [Vibration sensor](https://github.com/RPSTD/component101/tree/main/VibrationSensor)                          | ✅     |
-| C0009 | [Vibration sensor](https://github.com/RPSTD/component101/tree/main/VibrationSensorArduino)                   | ✅     |
-| C0010 | [Pressure sensor Arduino](https://github.com/RPSTD/component101/tree/main/PressureSensor)                    | ✅     |
-| C0011 | [Electrical fields sensor](https://github.com/RPSTD/component101/tree/main/ElectromagneticFieldSensor)       | ✅     |
-| C0012 | [Sound sensor](https://github.com/RPSTD/component101/tree/main/SoundSensor)                                  | ✅     |
-| C0013 | Position sensor                                                                                              |
-| C0014 | [Water Level Sensor (Leak Sensor)](https://github.com/RPSTD/component101/tree/main/WaterLevelSensor)         | ✅     |
-| C0015 | [Ultrasonic Distance Sensor](https://github.com/RPSTD/component101/tree/main/UltrasonicDistanceSensor)       | ✅     |
-| C0016 | [Two-color LED Module](https://github.com/RPSTD/component101/tree/main/TwoColorLEDModule)                    | ✅     |
-| C0017 | [Tracking Sensor](https://github.com/RPSTD/component101/tree/main/TrackingSensor)                            | ✅     |
-| C0018 | [Tilt Switch Module](https://github.com/RPSTD/component101/tree/main/TiltSensor)                             | ✅     |
-| C0019 | [GPS NEO 6m module](https://github.com/RPSTD/component101/tree/main/GPSNEO6mModule)                          | ✅     |
-| C0020 | [Rotary Encoder Module](https://github.com/RPSTD/component101/tree/main/RotaryEncoderModule)                 | ✅     |
-| C0021 | [RGB SMD LED](https://github.com/RPSTD/component101/tree/main/RGBSMDModule)                                  | ✅     |
-| C0022 | [Photoresistor Light Sensor](https://github.com/RPSTD/component101/tree/main/PhotoresistorSensorLightSensor) | ✅     |
-| C0023 | [Momentary Button Module](https://github.com/RPSTD/component101/tree/main/MomentryButtonModule)              | ✅     |
-| C0024 | [Metal Touch Sensor](https://github.com/RPSTD/component101/tree/main/MetalTouchSensor)                       | ✅     |
-| C0025 | [Magnetic Dry Reed Switch](https://github.com/RPSTD/component101/tree/main/MagneticReedSwitchModule)         | ✅     |
-| C0026 | [Logic Level Shifter](https://github.com/RPSTD/component101/tree/main/LogicLevelShifter)                     | ✅     |
-| C0027 | [Knock Sensor](https://github.com/RPSTD/component101/tree/main/KnockSensor)                                  | ✅     |
-| C0028 | [Joystick Module](https://github.com/RPSTD/component101/tree/main/JoystickModule)                            | ✅     |
-| C0029 | [Infrared(IR) Transmitter](https://github.com/RPSTD/component101/tree/main/InfraredTransmitter)              | ✅     |
-| C0030 | infrared(IR) Sensor                                                                                          |
-| C0031 | [High-Voltage Relay Module](https://github.com/RPSTD/component101/tree/main/HighVoltageRelayModule)          | ✅     |  
-| C0032 | [High Sensitivity Microphone sensor](https://github.com/RPSTD/component101/tree/main/HighSensitivityMicrophoneSensor) | ✅ |
-| C0033 | [Heatbeat/Pulse Sensor](https://github.com/RPSTD/component101/tree/main/PulseSensor)                         | ✅     |
-| C0034 | [Flamem IR Sensor](https://github.com/RPSTD/component101/tree/main/FlameIRSensor)                            | ✅     |
-| C0035 | Active piezo-Buzzer Module                                                                                   |
-| C0036 | Ardiuno MKR 1000 WiFi                                                                                        |
-| C0037 | DC Moters                                                                                                    |
-| C0038 | Two Colour LED Module                                                                                        |
-| C0039 | RGB LED Module                                                                                               |
-| C0040 | Push Button Module                                                                                           |
-| C0041 | Breadboard Power Supply Module                                                                               |
-| C0042 | Photoresistor Sensor Module                                                                                  |
-| C0043 | Reed Switch Module                                                                                           |
-| C0044 | Magnetic Hall Sensor Module                                                                                  |
-| C0045 | Liquid crystal displays (LCDs)                                                                               |
-| C0046 | [GSM Module](https://github.com/RPSTD/component101/tree/main/GSMmodule)                                      | ✅     |
-| C0047 | Flinger Print Scanner                                                                                        |
-| C0048 | QR Reader                                                                                                    |
-| C0049 | Gyroscope                                                                                                    |
-| C0050 | Wi-Fi Module                                                                                                 |
+| No    | Component                                                              | Status |
+| ----- | ---------------------------------------------------------------------- | ------ |
+| C0001 | [Light sensor](/LightSensor)                                           | ✅     |
+| C0002 | [Motion sensor](/MotionSensor)                                         | ✅     |
+| C0003 | [Temperature sensor](/TemperatureSensor)                               | ✅     |
+| C0004 | [Magnetic fields sensor](/MagneticFeildSensor)                         | ✅     |
+| C0005 | Gravity sensor                                                         |
+| C0006 | [Humidity sensor](/MagneticFeildSensor)                                | ✅     |
+| C0007 | [Moisture sensor](/MoistureSensor)                                     | ✅     |
+| C0008 | [Vibration sensor](/VibrationSensor)                                   | ✅     |
+| C0009 | [Vibration sensor](/VibrationSensorArduino)                            | ✅     |
+| C0010 | [Pressure sensor Arduino](/PressureSensor)                             | ✅     |
+| C0011 | [Electrical fields sensor](/ElectromagneticFieldSensor)                | ✅     |
+| C0012 | [Sound sensor](/SoundSensor)                                           | ✅     |
+| C0013 | Position sensor                                                        |
+| C0014 | [Water Level Sensor (Leak Sensor)](/WaterLevelSensor)                  | ✅     |
+| C0015 | [Ultrasonic Distance Sensor](/UltrasonicDistanceSensor)                | ✅     |
+| C0016 | [Two-color LED Module](/TwoColorLEDModule)                             | ✅     |
+| C0017 | [Tracking Sensor](/TrackingSensor)                                     | ✅     |
+| C0018 | [Tilt Switch Module](/TiltSensor)                                      | ✅     |
+| C0019 | [GPS NEO 6m module](/GPSNEO6mModule)                                   | ✅     |
+| C0020 | [Rotary Encoder Module](/RotaryEncoderModule)                          | ✅     |
+| C0021 | [RGB SMD LED](/RGBSMDModule)                                           | ✅     |
+| C0022 | [Photoresistor Light Sensor](/PhotoresistorSensorLightSensor)          | ✅     |
+| C0023 | [Momentary Button Module](/MomentryButtonModule)                       | ✅     |
+| C0024 | [Metal Touch Sensor](/MetalTouchSensor)                                | ✅     |
+| C0025 | [Magnetic Dry Reed Switch](/MagneticReedSwitchModule)                  | ✅     |
+| C0026 | [Logic Level Shifter](/LogicLevelShifter)                              | ✅     |
+| C0027 | [Knock Sensor](/KnockSensor)                                           | ✅     |
+| C0028 | [Joystick Module](/JoystickModule)                                     | ✅     |
+| C0029 | [Infrared(IR) Transmitter](/InfraredTransmitter)                       | ✅     |
+| C0030 | infrared(IR) Sensor                                                    |
+| C0031 | [High-Voltage Relay Module](/HighVoltageRelayModule)                   | ✅     |
+| C0032 | [High Sensitivity Microphone sensor](/HighSensitivityMicrophoneSensor) | ✅     |
+| C0033 | [Heatbeat/Pulse Sensor](/PulseSensor)                                  | ✅     |
+| C0034 | [Flamem IR Sensor](/FlameIRSensor)                                     | ✅     |
+| C0035 | Active piezo-Buzzer Module                                             |
+| C0036 | Ardiuno MKR 1000 WiFi                                                  |
+| C0037 | DC Moters                                                              |
+| C0038 | Two Colour LED Module                                                  |
+| C0039 | RGB LED Module                                                         |
+| C0040 | Push Button Module                                                     |
+| C0041 | Breadboard Power Supply Module                                         |
+| C0042 | Photoresistor Sensor Module                                            |
+| C0043 | Reed Switch Module                                                     |
+| C0044 | Magnetic Hall Sensor Module                                            |
+| C0045 | Liquid crystal displays (LCDs)                                         |
+| C0046 | [GSM Module](/GSMmodule)                                               | ✅     |
+| C0047 | Flinger Print Scanner                                                  |
+| C0048 | QR Reader                                                              |
+| C0049 | Gyroscope                                                              |
+| C0050 | Wi-Fi Module                                                           |
 
 ## License
 
