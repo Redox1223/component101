@@ -42,8 +42,8 @@ In this project is discribe arduino component review.
 | C0036 | Ardiuno MKR 1000 WiFi                                                  | ✅     |
 | C0037 | Gas Sensor                                                             | ✅     |
 | C0038 | MOSFET Module                                                          | ✅  
-| C0039 | Touch Sensor                                                           |✅  
-| C0040 | Keypad                                                                 |
+| C0039 | Touch Sensor                                                           | ✅  
+| C0040 | Keypad                                                                 |✅
 | C0041 | Breadboard Power Supply Module                                         |
 | C0042 | PH Sensor                                        |
 | C0043 | Reed Switch Module                                                     |
