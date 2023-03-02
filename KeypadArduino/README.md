@@ -7,6 +7,7 @@
 - Beneath each key is a membrane switch.Each switch in a row is connected to the other switches in the row by a conductive trace inderneath the pad.
 - Each switch in a column is connected the same way- one side of the switch is connected to all of the other switjches in that column by a conductive trace.
 - Each row and column is brought out to a single pin,for a total of 8 pins on the 4X4 keypad.
+
 ![Circuit](IMG/How-to-Set-Up-a-Keypad-on-an-Arduino-Back-Side-of-Keypad-610x718.jpg)
 
 - Pressing a button closes the switch between a column and a row trace, allowing current to flow between a column pin and a row pin.
