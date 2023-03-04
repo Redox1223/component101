@@ -51,10 +51,10 @@ In this project is discribe arduino component review.
 | C0045 | [Liquid crystal displays (LCDs)](/LiquidCrystalSensor)                 | ✅     |
 | C0046 | [GSM Module](/GSMmodule)                                               | ✅     |
 | C0047 | [Flinger Print Scanner](/FingerPrintSensor)                            | ✅     |
-| C0048 | QR Reader                                                              |
+| C0048 | [QR Reader](/QRReader)                                                 | ✅     |
 | C0049 | Gyroscope                                                              |
 | C0050 | Wi-Fi Module                                                           |
-| C0051 | CO2 Sensor                                                          |
+
 
 ## License
 
