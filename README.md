@@ -8,7 +8,7 @@ In this project is discribe arduino component review.
 | C0002 | [Motion sensor](/MotionSensor)                                         | ✅     |
 | C0003 | [Temperature sensor](/TemperatureSensor)                               | ✅     |
 | C0004 | [Magnetic fields sensor](/MagneticFeildSensor)                         | ✅     |
-| C0005 | [Gravity Sensor](/Gravity%20Sensor)                                                     |✅
+| C0005 | [Gravity Sensor](/GravitySensor)                                    | ✅     |
 | C0006 | [Humidity sensor](/MagneticFeildSensor)                                | ✅     |
 | C0007 | [Moisture sensor](/MoistureSensor)                                     | ✅     |
 | C0008 | [Vibration sensor](/VibrationSensor)                                   | ✅     |
@@ -16,7 +16,7 @@ In this project is discribe arduino component review.
 | C0010 | [Pressure sensor Arduino](/PressureSensor)                             | ✅     |
 | C0011 | [Electrical fields sensor](/ElectromagneticFieldSensor)                | ✅     |
 | C0012 | [Sound sensor](/SoundSensor)                                           | ✅     |
-| C0013 | [Position sensor](/Position%20Sensor/)                                                        |✅
+| C0013 | [Position sensor](/PositionSensor/)                                 | ✅     |
 | C0014 | [Water Level Sensor (Leak Sensor)](/WaterLevelSensor)                  | ✅     |
 | C0015 | [Ultrasonic Distance Sensor](/UltrasonicDistanceSensor)                | ✅     |
 | C0016 | [Two-color LED Module](/TwoColorLEDModule)                             | ✅     |
@@ -33,7 +33,7 @@ In this project is discribe arduino component review.
 | C0027 | [Knock Sensor](/KnockSensor)                                           | ✅     |
 | C0028 | [Joystick Module](/JoystickModule)                                     | ✅     |
 | C0029 | [Infrared(IR) Transmitter](/InfraredTransmitter)                       | ✅     |
-| C0030 | infrared(IR) Sensor                                                    |
+| C0030 | [infrared(IR) Transmitter Sensor](/InfraredTransmitter)                | ✅     |
 | C0031 | [High-Voltage Relay Module](/HighVoltageRelayModule)                   | ✅     |
 | C0032 | [High Sensitivity Microphone sensor](/HighSensitivityMicrophoneSensor) | ✅     |
 | C0033 | [Heatbeat/Pulse Sensor](/PulseSensor)                                  | ✅     |
@@ -45,12 +45,12 @@ In this project is discribe arduino component review.
 | C0039 | [Touch Sensor](/TouchSensorModule)                                     | ✅     |
 | C0040 | [Keypad](/KeypadArduino)                                               | ✅     |
 | C0041 | [Breadboard Power Supply Module](/BreadboardPowerSupplyModule)         | ✅     |
-| C0042 | [PH Sensor](/PHSensor)                                        |✅
-| C0043 | [Reed Switch Module](/ReedSwitchModule)                                                     |
-| C0044 | Laser Module                                         |
-| C0045 | Liquid crystal displays (LCDs)                                         |
+| C0042 | [PH Sensor](/PHSensor)                                                 | ✅     |
+| C0043 | [Reed Switch Module](/ReedSwitchModule)                                | ✅     |
+| C0044 | [Laser Module](/LaserModule)                                           | ✅     |
+| C0045 | [Liquid crystal displays (LCDs)](/LiquidCrystalSensor)                 | ✅     |
 | C0046 | [GSM Module](/GSMmodule)                                               | ✅     |
-| C0047 | Flinger Print Scanner                                                  |
+| C0047 | [Flinger Print Scanner](/FingerPrintSensor)                            | ✅     |
 | C0048 | QR Reader                                                              |
 | C0049 | Gyroscope                                                              |
 | C0050 | Wi-Fi Module                                                           |
