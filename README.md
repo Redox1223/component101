@@ -45,7 +45,7 @@ In this project is discribe arduino component review.
 | C0039 | [Touch Sensor](/TouchSensorModule)                                     | ✅     |
 | C0040 | [Keypad](/KeypadArduino)                                               | ✅     |
 | C0041 | [Breadboard Power Supply Module](/BreadboardPowerSupplyModule)         | ✅     |
-| C0042 | PH Sensor                                        |
+| C0042 | [PH Sensor](/PHSensor)                                        |✅
 | C0043 | Reed Switch Module                                                     |
 | C0044 | Magnetic Hall Sensor Module                                            |
 | C0045 | Liquid crystal displays (LCDs)                                         |
