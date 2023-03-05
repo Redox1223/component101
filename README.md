@@ -33,7 +33,7 @@ In this project is discribe arduino component review.
 | C0027 | [Knock Sensor](/KnockSensor)                                           | ✅     |
 | C0028 | [Joystick Module](/JoystickModule)                                     | ✅     |
 | C0029 | [Infrared(IR) Transmitter](/InfraredTransmitter)                       | ✅     |
-| C0030 | [infrared(IR) Transmitter Sensor](/InfraredTransmitter)                | ✅     |
+| C0030 | [CO2Sensor]               |     |
 | C0031 | [High-Voltage Relay Module](/HighVoltageRelayModule)                   | ✅     |
 | C0032 | [High Sensitivity Microphone sensor](/HighSensitivityMicrophoneSensor) | ✅     |
 | C0033 | [Heatbeat/Pulse Sensor](/PulseSensor)                                  | ✅     |
@@ -52,9 +52,8 @@ In this project is discribe arduino component review.
 | C0046 | [GSM Module](/GSMmodule)                                               | ✅     |
 | C0047 | [Flinger Print Scanner](/FingerPrintSensor)                            | ✅     |
 | C0048 | [QR Reader](/QRReader)                                                 | ✅     |
-| C0049 | Gyroscope                                                              |
-| C0050 | Wi-Fi Module                                                           |
-
+| C0049 |[Accelerometer and  Gyroscope Sensor](/AccelerometerAndGyroscopeSensor)                                                 | ✅     |
+| C0050 | [Rain Sensor](/RainSensor)                                             | ✅     |  
 
 ## License
 
