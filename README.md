@@ -33,7 +33,7 @@ In this project is discribe arduino component review.
 | C0027 | [Knock Sensor](/KnockSensor)                                           | ✅     |
 | C0028 | [Joystick Module](/JoystickModule)                                     | ✅     |
 | C0029 | [Infrared(IR) Transmitter](/InfraredTransmitter)                       | ✅     |
-| C0030 | [CO2Sensor]               |     |
+| C0030 | [Load Cell Sensor](/LoadCellSensor)                                    | ✅     |
 | C0031 | [High-Voltage Relay Module](/HighVoltageRelayModule)                   | ✅     |
 | C0032 | [High Sensitivity Microphone sensor](/HighSensitivityMicrophoneSensor) | ✅     |
 | C0033 | [Heatbeat/Pulse Sensor](/PulseSensor)                                  | ✅     |
