@@ -1,34 +1,28 @@
-# Finger Print Sensor
+# C0047 - FingerPrint Sensor
 
-- A finger print sensor is a device that captures an image of a person's fingerprint and uses it to authenticate their identity.
-- The basic principle behind a fingerprint sensor is to capture the unique pattern of ridges and valleys on the surface of the fingertip.
-- There are two main types of fingerprints sensors.
+A fingerprint sensor is an electronic device that captures and reads the unique pattern of ridges and valleys on the surface of a fingertip to authenticate a person's identity.
 
-1. Optical Sensor
-2. Capacitive Sensor
+## Image
 
-- Optical Sensor use light to capture the fingerprint image,while capacitive sensors use electronic current.
+![Component](IMG/finalPic.png)
 
-- The optical fingerprint sensor can be used to scan fingerprint and it can send the proccessed data to a microcontroller via serial communication as well.
-- All registered fingerprints are stored in this module.
+## How to connect to a circuit
 
-## Special Features
+The fingerprint sensor module requires a power supply of 3.3V and maximum current supply of 60mA. It communicates with a microcontroller through serial communication using the TX and RX pins. The GND pin is connected to the ground of the circuit.
 
-- Supply voltage 3.3V
-- Maximum current supply 60mA
-- Resolution 500dpi
-- Max fingerprint imaging time 1s
-![Sensor](IMG/AS608-Fingerprint-Module.jpg)
+## The theory behind the component
 
-## Pin configuration
+The fingerprint sensor module captures an image of a person's fingerprint using either an optical or capacitive sensor. An optical sensor uses light to illuminate the finger and capture the fingerprint image, while a capacitive sensor uses an electric current to sense the ridges and valleys on the fingertip. Once the fingerprint image is captured, it is processed and compared to the registered fingerprints stored in the module's memory to authenticate the person's identity.
 
-- V+ - module power supply 3.3V
-- GND - Ground
-- TX - Serial Transmitter
-- RX - Serial Transmiter
+## Features
 
-![Pinout](IMG/AS608-Fingerprint-Pinout.jpg)
+- Supply voltage: 3.3V
+- Maximum current supply: 60mA
+- Resolution: 500dpi
+- Maximum fingerprint imaging time: 1s
 
-## Circuit Diagram
+All registered fingerprints are stored in the module's memory.
 
-![Circuit Diagram](IMG/AS608-Fingerprint-Circuit-.jpg)
+## Statistics
+
+The fingerprint sensor module has a resolution of 500dpi and can capture and process a fingerprint image in as little as 1 second. The accuracy of the sensor can vary depending on the quality of the image and the number of registered fingerprints in its memory.
