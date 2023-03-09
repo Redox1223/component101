@@ -1,67 +1,36 @@
-# GSM NEO 6m Module
+# GPSNEO6m Module
 
-![Module](IMG/Tutorial-for-Interfacing-NEO-6M-GPS-Module-with-Arduino.webp)
+The GSM NEO 6m Module is a GPS (Global Positioning System) module that can receive and process signals from navigation satellites orbiting the earth to determine its location. This module is compact and packed with features, making it a popular choice for DIY projects that require accurate positioning information.
 
-## How does it works?
+## Image
 
-- GPS is a system of 30+ navigation satellites orbiting the earth.
-- We know where they are in space because they constantly transmit information about their position and current time to Earth in the form of radio signals.
+![Image](IMG/UpdatePIC.png)
 
-- A GPS receiver listens to these signals.once the receiver calculates its distance from at least three GPS satellites,it can figure out where you are.This process is known as **Trilateration**.
+## How to connect to a circuit
 
-![trilateration-process](IMG/how-gps-works-trilateration-process.png)
+To connect the NEO-6M GPS module to an Arduino circuit, you need to connect the module's four pins to the corresponding pins on the Arduino. The GND pin goes to the Arduino's GND pin, the TxD pin goes to the Arduino's RX pin, the RxD pin goes to the Arduino's TX pin, and the VCC pin goes to the Arduino's 5V pin.
 
-## NEO-6M GPS Chip
+## The theory behind the component
 
-- The chip measures less than a postage stamp but packs a supirising amount of features into its tiny frame.
+The NEO-6M GPS module works by receiving signals from navigation satellites orbiting the earth. Once the module receives signals from at least three GPS satellites, it can determine its location using a process called trilateration. The GPS chip inside the module is responsible for tracking up to 22 satellites over 50 channels and achieving the highest level of tracking sensitivity in the industry. The module also comes with a 3.3V LDO regulator, a rechargeable battery, and an EEPROM for retaining critical data.
 
-![NEO-6M-GPS-Module-Chip](IMG/NEO-6M-GPS-Module-Chip.jpg)
+## Features
 
-- It can track up to 22 satellitea over 50 channels and achieve the industry's highest level of tracking sensitivity i.e -161 dB. while consuming only 45mA current.
-- Unlike other GPS modules,it can perform 5 location updates in a second with 2.5m horizontal position accuracy.The U-blox 6 popsitioning engine also has a Time-To-First-Fix(TTFF) of less than 1 second.
+- The NEO-6M GPS module has several features that make it a popular choice for DIY projects, including:
 
-## Position Fix LED indicator
+- High tracking sensitivity of -161 dBm
+- Ability to track up to 22 satellites over 50 channels
+- 2.5m horizontal position accuracy
+- 5 location updates per second
+- Time-To-First-Fix of less than 1 second
+- 3.3V LDO regulator for stable power supply 
+- Battery and EEPROM for retaining critical data
+- Patch antenna with -161 dBm sensitivity
 
-- There is a LED on the NEO-6m GPS module that indicates the status of the 'Position Fix'.It will blink at different rates depending on which state it is in,
+## Statistics
 
-  - **No blinking**- it is searching for satellites
-  - **Blink every 1s**- Position Fix is found(the module can see enough satellites).
-
-  ![NEO-6M-GPS-Module-Position-Fix-LED-Indicator](IMG/NEO-6M-GPS-Module-Position-Fix-LED-Indicator.jpg)
-
-## 3.3V LDO Regulator
-
-- The operating voltage of the NEO- 6m chip ranges from 2.7 to 3.6V.
-- But the good news is,this module comes with MICREL's MIC5205 Ultra-Low Dropout 3V3 regulator.
-- The logic pins are also 5V tolerant,so we easily connect it to Arduino or any 5V logic microcontroller without using a logic level converter.
-
-  ![NEO-6M-GPS-Module-3.3V-Voltage-Regulator](IMG/NEO-6M-GPS-Module-3.3V-Voltage-Regulator.jpg)
-
-## Bettery and EEPROM
-
-- The module is equipped with HK24C32 Two Wirw serial EEPROM.it is 4KB in size and is connected via 12C to the NEO-6M chip.
-- The module also houses a rechargeable battery that acts as a super-capacitor.
-
-  ![NEO-6M-GPS-Module-Battery-and-EEPROM](IMG/NEO-6M-GPS-Module-Battery-and-EEPROM.jpg)
-
-- EEPROM and bettery together help in retaining the BBR(Battery Backed RAM).
-- BBR contains clock data,latest position data(GNSS orbit data) and module configuration.But it is not for permanent data storage.
-
-## Antenna
-
-- The module comes with -161 dBm sensittivity patch antenna for receiving radio signal from GPS satellites.
-  ![NEO-6M-Patch-Antenna](IMG/NEO-6M-Patch-Antenna.jpg)
-
-## NEO-6M GPS Module pinout
-
-- The NEO-6M GPS module has a total of 4pins that connect it to the outside world.
-  ![Ublox-NEO-6M-GPS-Module-Pinout](IMG/Ublox-NEO-6M-GPS-Module-Pinout.png)
-
-- GND is the ground pin and needs to be connected to the GND pin on the Arduino.
-- TxD pin is used for serial communication.
-- RxD pin is used for serial communication
-- VCC supplies power to the module. You can connect it directly to the 5V pin on the Arduino.
-
-## Wiring a NEO-6M GPS module to an Arduino
-
-![Wiring-Connections-NEO-6M-GPS-Module-to-Arduino-UNO](IMG/Wiring-Connections-NEO-6M-GPS-Module-to-Arduino-UNO.png)
+- The NEO-6M GPS module consumes only 45mA current and has a MICREL's MIC5205 Ultra-Low Dropout 3V3 regulator. 
+- The HK24C32 Two Wire serial EEPROM is 4KB in size and is connected via 12C to the NEO-6M chip. 
+- The module's patch antenna has a sensitivity of -161 dBm. 
+- The GPS chip inside the module can track up to 22 satellites over 50 channels and achieve the industry's highest level of tracking sensitivity. 
+- The module can perform 5 location updates in a second with 2.5m horizontal position accuracy, and it has a Time-To-First-Fix of less than 1 second
