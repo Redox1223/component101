@@ -1,4 +1,4 @@
-# Description of the component
+# C0047 - FingerPrint Sensor
 
 A fingerprint sensor is an electronic device that captures and reads the unique pattern of ridges and valleys on the surface of a fingertip to authenticate a person's identity.
 
