@@ -16,10 +16,11 @@ The fingerprint sensor module captures an image of a person's fingerprint using 
 
 ## Features
 
-Supply voltage: 3.3V
-Maximum current supply: 60mA
-Resolution: 500dpi
-Maximum fingerprint imaging time: 1s
+- Supply voltage: 3.3V
+- Maximum current supply: 60mA
+- Resolution: 500dpi
+- Maximum fingerprint imaging time: 1s
+
 All registered fingerprints are stored in the module's memory.
 
 ## Statistics
