@@ -1,8 +1,6 @@
 # C0006-Humidity sensor
 
-## Introduction
-
-- A humidity sensor is a device that detects and measures the relative humidity of the air or the amount of water vapor present in gas mixtures. It works by detecting changes that alter electrical current or temperature in the air.
+A humidity sensor is a device that detects and measures the relative humidity of the air or the amount of water vapor present in gas mixtures. It works by detecting changes that alter electrical current or temperature in the air.
 
 ## Image
 
@@ -10,13 +8,13 @@
 
 ## How to connect to a circuit
 
-- The VCC pin of the humidity sensor is connected to the 5V pin and the GND pin is connected to the GND. The signal pin is connected to the analog input port A0 on the microcontroller.
+The VCC pin of the humidity sensor is connected to the 5V pin and the GND pin is connected to the GND. The signal pin is connected to the analog input port A0 on the microcontroller.
 
 ## The theory behind the components
 
 - There are three basic types of humidity sensors - capacitive, resistive, and thermal. 
 - Capacitive humidity sensors measure the change in capacitance between two electrodes caused by the adsorption of water molecules. 
--Resistive humidity sensors measure the change in resistance of a material due to water absorption or desorption.
+- Resistive humidity sensors measure the change in resistance of a material due to water absorption or desorption.
 - Thermal humidity sensors measure the change in temperature of a surface caused by the evaporation or condensation of water.
 
 ## Features
