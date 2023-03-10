@@ -8,7 +8,7 @@
 
 ## Image
 
-![Image](IMG/Screenshot_20230307_104241.png)
+![Image](IMG/IMG.png)
 
 ## How to Connect to a Circuit
 

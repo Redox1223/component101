@@ -6,7 +6,7 @@
 
 ## Image
 
-![Circuit connection](IMG/Update2Pic.png)
+![Circuit connection](IMG/IMG.png)
 
 ## How to connect to a circuit
 

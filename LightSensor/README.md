@@ -8,7 +8,7 @@
 
 ## Image
 
-![Image](IMG/UpdatePic.png)
+![Image](IMG/IMG.png)
 
 ## How to connect to a circuit
 
