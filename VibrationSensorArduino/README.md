@@ -1,25 +1,36 @@
-# The Vibration sensor
+# C009-The Vibration sensor
 
-- There are sevaral critical machines or expensive equipment which suffer damages due to vibrations.
-- In such a case,a vibration sensor is required to find out whether the machine or equipment is producing vibration or not.
-- Identifying the object which is continuously vibrating is not a tricky job if the proper sensor is used to detect the vibration.
-- There are several types of vibration sensors available in the market which can detect the vibration bys sensing acceleratiom or velocity and could provide excellent resuilt.
-- however, such sensor are too expensive where the accelerometer is used.
-- Accelerometer is very sensitive and can be used to make Earthquake detector circuit.
-- But, there are few dedicated and cheap sensors are also available to detect the vibrations only,one such vibration sensor is SW-420 which we are going to interface with Arduino Uno.
-- So in this project,a basic vibration sensor detects any vibration or jerk an LED will start blinking.
+## Introduction
 
-## Vibration Sensor Module SW-420
+- A vibration sensor is an electronic device that is used to detect vibrations in a machine or equipment. It helps in identifying any continuous vibration or jerks that could lead to damages in critical machines or expensive equipment. The SW-420 vibration sensor is a cheap and dedicated sensor that detects vibration using LM393 comparator and provides digital output.
 
-![Module](IMG/Vibration-Sensor-Module-SW-420.jpg)
+## Image
 
-- This is an SW-420 Vibration module,which work from 3.3V to the 5V.
-- The sensor used LM393  comparator to detect the vibratuin over a threshold point and provide digital data,logic low and when the vibration is detected,the sensor provide logic High.
-- There are three peripherals available in the module, two LED's one for the power state and other peripherals availavle in the module,two LED's one for the power state and other for the sensor's output.
-- Additionally, a potentiometer is available which can be further used to control the threshold point of the vibration.
+![Imge](IMG/IMG.png)
 
-![Arduino part](IMG/Wiring-Diagram-for-Interfacing-Vibration-Sensor-Module-with-Arduino.png)
+## How to connect to a circuit
 
-- The LED is connected in the D13 pin.
-- The module is powered using the available 5V pin in the Arduino.
-- The Ground and the 5V pin are used to power up the Arduino whereas the A5 pin is used to get the data from the vibration sensor.
+- To connect the SW-420 vibration sensor module to an Arduino, follow these steps:
+
+- Connect the VCC pin of the module to the 5V pin on the Arduino.
+- Connect the GND pin of the module to the GND pin on the Arduino.
+- Connect the DO pin of the module to any digital pin on the Arduino, such as D2.
+- Connect a LED to the digital pin D13 and GND.
+
+## The theory behind the components
+
+- The SW-420 vibration sensor module uses an LM393 comparator to detect vibrations over a threshold point and provide digital data. When the vibration is detected, the sensor provides logic high output, and when there is no vibration, the sensor provides logic low output.
+- The potentiometer available on the module can be used to control the threshold point of the vibration.
+
+## Features
+
+- Some common features of the SW-420 vibration sensor module include:
+
+- Cheap and dedicated vibration sensor
+- LM393 comparator used to detect vibration
+- Potentiometer available to control threshold point
+- Digital output provided when vibration is detected
+
+## Statistics
+
+- The accuracy of the vibration sensor can vary depending on the type of sensor used and the environment it is used in. However, a good quality vibration sensor can provide accurate results and help in identifying any continuous vibration or jerks that could lead to damages in critical machines or expensive equipment. The lifespan of a vibration sensor can range from a few months to several years, depending on the type of sensor and its usage.
