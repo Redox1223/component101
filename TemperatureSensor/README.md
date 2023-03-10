@@ -1,9 +1,6 @@
 # C0003-Temperature sensor
 
-## Introduction
-
-- A temperature sensor is a type of sensor used to measure the temperature of an object or environment.
-In Arduino, the temperature sensor converts the surrounding temperature to voltage, which is then converted into Fahrenheit and displayed on an LCD.
+A temperature sensor is a type of sensor used to measure the temperature of an object or environment. In Arduino, the temperature sensor converts the surrounding temperature to voltage, which is then converted into Fahrenheit and displayed on an LCD.
 
 ## Image
 
@@ -14,10 +11,10 @@ In Arduino, the temperature sensor converts the surrounding temperature to volta
 - Pin 1 of the temperature sensor is connected to DC 5V.
 - Pin 2 is connected to any analog signal pin on the Arduino board.
 - Pin 3 is connected to the GND pin on the board.
-The theory behind the components
-- The temperature sensor converts the surrounding temperature to voltage using a thermistor, which is a type of resistor that changes its resistance with temperature.
-- As the temperature increases, the resistance of the thermistor decreases, which causes an increase in the voltage output of the sensor.
-- This voltage output is then converted to Fahrenheit using a formula and displayed on an LCD.
+
+## The theory behind the components
+
+The temperature sensor converts the surrounding temperature to voltage using a thermistor, which is a type of resistor that changes its resistance with temperature. As the temperature increases, the resistance of the thermistor decreases, which causes an increase in the voltage output of the sensor. This voltage output is then converted to Fahrenheit using a formula and displayed on an LCD.
 
 ## Features
 
