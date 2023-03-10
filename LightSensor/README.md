@@ -1,10 +1,6 @@
 # C0001-Light Sensor
 
-## Introduction
-
-- Light sensor module is used to detect the intensity of light.
-- It has both analog output pin and digital output pin labeled as AO and DO respectively on the board.
-- This sensor module is designed to detect and measure various physical properties, such as temperature, humidity, pressure, light intensity and more.
+Light sensor module is used to detect the intensity of light. It has both analog output pin and digital output pin labeled as AO and DO respectively on the board. This sensor module is designed to detect and measure various physical properties, such as temperature, humidity, pressure, light intensity and more.
 
 ## Image
 
@@ -29,7 +25,7 @@
 
 - The light sensor module has both analog and digital output pins.
 - It can be used to detect the intensity of light.
-The sensitivity of the sensor can be adjusted using a potentiometer.
+- The sensitivity of the sensor can be adjusted using a potentiometer.
 
 ## Statistics
 
