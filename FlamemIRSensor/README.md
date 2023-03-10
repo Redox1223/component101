@@ -1,43 +1,30 @@
-# Flamem IR Sensor
+# C0034-Flamem IR Sensor
 
-- Fire Alarm System are very common in commericial building and factories,these devices usual contain a cluster of sensors that constantly monitors for any flame,gas or fire in the building and triggers an alarm if it detect any of these.
-- One of the simplest way to detect fire is by using an IR Flame sensor.
-- These sensors have an IR photodiode which is sensitive to IR light.
-- Now, in the event of a fire,the fire will not only produce heat but will also emit IR rays.(Every burning flame will emit some level of IR light.These light is not visible to human eyes but our flame sensor can detect it and alert a microcontroller like arduino that a fire has been detected.)
+## Introduction
 
-## Flame Sensor
+- A Flame Sensor or Flame Detector is a device designed to detect and respond to the presence of a flame fire. The IR Flame Sensor is a simple yet effective way to detect fire and is commonly used in commercial buildings and factories.
 
-- A Flame Detector is a sensor designed to detect and respond to the presence of a flame fire.
-- Responses to a detected flame depend on the installation but can include sounding an Alarm, detectivating a fuel line(such as a propane or a natural gas line),and activating a fire suppression system.
+## Image
 
-![Sensor](IMG/Fire-or-flame-sensor-module.jpg)
+![Circuit connection](IMG/Update2Pic.png)
 
-- There are different type of flame detection methods.Some of them are Ultraviolet detector,near IR array detector,imfrared(IR) detector,Infrared thermal cameras,UV/IR detector etc.
-- When fire burns it emits a small amount of infra-red light,this light will be received by the photodiode(IR receiver) on the sensor module.
-- Then we use an OP-Amp to check for a change in voltage across the IR Receiver,so that if a fire is detected the output pin (DO) will give 0V(LOW),and if the is no fire the output pin will be 5V (HIGH).
-- This Sensor can detect infrared light with a wavelength ranging from 700nm to 1000nm and its detection angle is about 60.
-- This flame sensor module consists of a photodiode (IR receiver), resistor, capacitor,potentiometer and LM393 comparator in an integrated circuit.
-- The sensitivity can be adjusted by varying the onboard potentiometer.
-- Working voltage is between 3.3V and 5V DC,with a digital output.
-- A logic high on the output indicates the presense of flame or fire.
-- A logic low on output indicates the absence of flame or fire.
+## How to connect to a circuit
 
-## Below is the Pin Description of the Flame sensor Module
+- The Flame Sensor module has three pins: VCC, GND, and Dout. Connect VCC and GND to a 3.3V-5V power supply and ground, respectively. The Dout pin is the digital output and should be connected to a digital input pin on a microcontroller or other digital device.
 
-- VCC-->3.3V-5V power supply
-- GND-->Ground
-- Dout-->Digital output
+## The theory behind the components
 
-## Application of flame sensor
+- The Flame Sensor module consists of an IR photodiode (IR receiver), resistor, capacitor, potentiometer, and LM393 comparator in an integrated circuit. When a fire burns, it emits a small amount of infrared light which is received by the IR receiver. The LM393 comparator is used to check for a change in voltage across the IR receiver. If a fire is detected, the output pin (Dout) will give 0V (LOW), and if there is no fire, the output pin will be 5V (HIGH). The sensitivity of the sensor can be adjusted by varying the onboard potentiometer.
 
-- Hydrogen stations
-- Combustion monitor for burners
-- Oil and gas pipelines
-- Automotive manufacturing facilities
-- Nuclear facilities
-- Aircraft hangars
-- Turbine enclosures
+## Features
 
-## Circuit Diagram
+- Detects infrared light with a wavelength ranging from 700nm to 1000nm
+- Detection angle of about 60 degrees
+- Sensitivity can be adjusted by varying the onboard potentiometer
+- Working voltage is between 3.3V and 5V DC, with a digital output
+- Logic high on output indicates the presence of flame or fire
+- Logic low on output indicates the absence of flame or fire
 
-![Circuit Diagram](IMG/Circuit-Diagram-for-Flame-Sensor-Interfacing-with-Arduino.png)
+## Statistics
+
+- Some common applications of the Flame Sensor include hydrogen stations, combustion monitors for burners, oil and gas pipelines, automotive manufacturing facilities, nuclear facilities, aircraft hangars, and turbine enclosures.
