@@ -1,8 +1,6 @@
 # C0005-Gravity Sensor
 
-## Introduction
-
--A gravity sensor, also known as an accelerometer, is a sensor that measures acceleration, tilt, and vibration in a particular direction. It can be used to determine the device's relative orientation in space or to detect anything under the ground that creates a mass difference in civil engineering.
+A gravity sensor, also known as an accelerometer, is a sensor that measures acceleration, tilt, and vibration in a particular direction. It can be used to determine the device's relative orientation in space or to detect anything under the ground that creates a mass difference in civil engineering.
 
 ## Image
 
@@ -10,14 +8,11 @@
 
 ## How to Connect to a Circuit
 
-- To use a gravity sensor with Arduino, you need to connect the sensor to the Arduino board and write a program to read the sensor data. Depending on the type of sensor you have, you may need to connect it to the board using pins or a shield. Once you have the sensor data, you can use it to control other parts of your project.
-
-- Here is a circuit diagram for connecting a gravity sensor to an Arduino board:
-Circuit Diagram
+To use a gravity sensor with Arduino, you need to connect the sensor to the Arduino board and write a program to read the sensor data. Depending on the type of sensor you have, you may need to connect it to the board using pins or a shield. Once you have the sensor data, you can use it to control other parts of your project.
 
 ## The Theory Behind the Components
 
-- The gravity sensor calculates its values using more than one hardware sensor and provides a three-dimensional vector indicating the direction and magnetic of gravity. The sensor measures the force of acceleration, which can be interpreted as the direction and magnitude of gravity. The sensor uses a piezoelectric material that generates a voltage proportional to the acceleration it experiences.
+The gravity sensor calculates its values using more than one hardware sensor and provides a three-dimensional vector indicating the direction and magnetic of gravity. The sensor measures the force of acceleration, which can be interpreted as the direction and magnitude of gravity. The sensor uses a piezoelectric material that generates a voltage proportional to the acceleration it experiences.
 
 ## Features
 
