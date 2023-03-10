@@ -1,32 +1,25 @@
-# Mortion sensor
+# C0002-Motion sensor
 
-- designed to detect and measure movement.
-- It used primarily in home and bussiness secuirty system, but they can also be found in phones,papers towel dispensers,game consoles,and virtual reality systems.
-- unlike many other type of sensors,(which can be handheld and isolated),motion sensors are typically embedded systems with three major components.
-   1. a sensor.
-   2. an embedded computer
-   3. hardware
-- There three parts vary in size and configuration,as motion sensors can be customized to perform highly specific funtions.for example,
-  - mortion sensor can be used to activate floodlight,trigger audible alarms,activate switches and event arlets the police.
+## Introduction
 
-- there are two type of mortion sensors.
-   1. active mortion
-   2. passive mortion
+- Motion sensors are devices used to detect and measure movement. They are commonly used in home and business security systems, but can also be found in phones, paper towel dispensers, game consoles, and virtual reality systems.
 
-## Active Mortion sensor
+## Image
 
-- Acitive sensors have both a transmitter and receiver.
-- This type of sensor detects mortion by measuring changers,in amount of sound and radiation reflecting back into the receiver.
-- when an object interrupts the or alter the sensor field,and electric is send to the embidedded computer,whitch an turn with interacts with the mechanical component.
-- The most common type of active mortion detector uses Ultrasonic Sensor technology.
-  - Ultrasonic sensors emit the sound waves to detect the presence of objects.there are also microwave sonsors(whitch emit microwave radiation.),and termographic sensors (which transmit and receive radiation waves).
-  ![Mortion Sensor](IMG/motionsensor.webp)
+![Imge](IMG/UpdatePic.png)
 
-### Passive Mortion sensor
+## How to connect to a circuit
 
-- Passive mortion sensor doesn't have a transmitter.
-- Insead of measuring a constant reflection,the sensor based the mortion based on a precieved increase of radiation in its environment.
-- The most widly used type of passive mortion sensor in home security system is the passive infrared (PIR)sensor.
-- The PRI sensor is designed to detect the infrared radiation emmited naturally from the human body.
-- The receiver is contain in a filter that only allows infrared to pass it.
-- when a person walks into the PRI sensor's feild of detection,the difference ratiation creats a positive charge with a receiver.,this perceived change causes the sensing unit to send electrical data to embidded computer and hardware component.
+- The specific instructions for connecting a motion sensor to a circuit will depend on the type of motion sensor being used and the circuit being built. Generally, motion sensors will have pins or wires for connecting to power (usually 5V or 3.3V), ground, and a digital input pin on a microcontroller (such as an Arduino). It's important to consult the datasheet for the specific motion sensor being used and follow the manufacturer's instructions.
+
+## The theory behind the components
+
+- Motion sensors typically consist of three major components: a sensor, an embedded computer, and hardware. Active sensors have both a transmitter and receiver, and detect motion by measuring changes in the amount of sound and radiation reflecting back into the receiver. Passive sensors, on the other hand, detect motion based on a perceived increase of radiation in its environment. The most widely used type of passive motion sensor is the passive infrared (PIR) sensor, which detects the infrared radiation emitted naturally from the human body.
+
+## Features
+
+- Motion sensors can be customized to perform highly specific functions, such as activating floodlights, triggering audible alarms, activating switches, and even alerting the police. There are different types of motion sensors, including active and passive sensors, and different technologies used to detect motion, such as ultrasonic, microwave, and thermographic sensors.
+
+## Statistics
+
+- There is no specific statistic related to motion sensors as a whole, as their use and effectiveness will depend on the specific application and environment they are used in. However, motion sensors are widely used in home and business security systems, and have been shown to be effective in deterring burglars and intruders.
