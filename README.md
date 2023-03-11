@@ -14,9 +14,9 @@ In this project is discribe arduino component review.
 | C0008 | [Vibration sensor](/VibrationSensor)                                   | ✅  | ✅ |
 | C0009 | [Vibration sensor](/VibrationSensorArduino)                            | ✅  | ✅ |
 | C0010 | [Pressure sensor Arduino](/PressureSensor)                             | ✅  | ✅ |
-| C0011 | [Electrical fields sensor](/ElectromagneticFieldSensor)                | ✅     |
-| C0012 | [Sound sensor](/SoundSensor)                                           | ✅     |
-| C0013 | [Position sensor](/PositionSensor/)                                    | ✅     |
+| C0011 | [Electrical fields sensor](/ElectromagneticFieldSensor)                | ✅  | ✅ |
+| C0012 | [Sound sensor](/SoundSensor)                                           | ✅  | ✅ |
+| C0013 | [Position sensor](/PositionSensor/)                                    | ✅  | ✅ |
 | C0014 | [Water Level Sensor (Leak Sensor)](/WaterLevelSensor)                  | ✅     |
 | C0015 | [Ultrasonic Distance Sensor](/UltrasonicDistanceSensor)                | ✅     |
 | C0016 | [Two-color LED Module](/TwoColorLEDModule)                             | ✅     |
