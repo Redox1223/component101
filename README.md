@@ -17,9 +17,9 @@ In this project is discribe arduino component review.
 | C0011 | [Electrical fields sensor](/ElectromagneticFieldSensor)                | ✅  | ✅ |
 | C0012 | [Sound sensor](/SoundSensor)                                           | ✅  | ✅ |
 | C0013 | [Position sensor](/PositionSensor/)                                    | ✅  | ✅ |
-| C0014 | [Water Level Sensor (Leak Sensor)](/WaterLevelSensor)                  | ✅     |
-| C0015 | [Ultrasonic Distance Sensor](/UltrasonicDistanceSensor)                | ✅     |
-| C0016 | [Two-color LED Module](/TwoColorLEDModule)                             | ✅     |
+| C0014 | [Water Level Sensor (Leak Sensor)](/WaterLevelSensor)                  | ✅  | ✅ |
+| C0015 | [Ultrasonic Distance Sensor](/UltrasonicDistanceSensor)                | ✅  | ✅ |
+| C0016 | [Two-color LED Module](/TwoColorLEDModule)                             | ✅  | ✅ |
 | C0017 | [Tracking Sensor](/TrackingSensor)                                     | ✅     |
 | C0018 | [Tilt Switch Module](/TiltSensor)                                      | ✅     |
 | C0019 | [GPS NEO 6m module](/GPSNEO6mModule)                                   | ✅   | ✅ |
