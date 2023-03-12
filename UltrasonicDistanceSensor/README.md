@@ -1,67 +1,37 @@
-# Ultrasonic Distance Sensor
-- The HC-SR04 is an affordable and easy to use distance measuring sensor which has a range from 2cm to 400cm (about an inch to 13 feet)
-- The sensor is composed of two ultrasonic transducers.
-- One is transmitter which outputs ultrasonic sound pulses and other is receiver which listens for reflected waves.
-- It's basically a SONAR which is used in submarines for detecting underwater object.
-<img src="IMG\HC-SR04-Ultrasonic-Sensor-Arduino-Tutorial-768x432.png">
-<br>
-<table>
-<tr>
-<th>Operating Voltage</th>
-<td>5V DC</td>
-</tr>
-<tr>
-<th>Operating Current</th>
-<td>15mA</td>
-</tr>
-<tr>
-<th>Operating Frequency</th>
-<td>5V DC</td>
-</tr>
-<tr>
-<th>Min Range</th>
-<td>2cm/1 inch</td>
-</tr>
-<tr>
-<th>Max Range</th>
-<td>400cm/13 feet</td>
-</tr>
-<tr>
-<th>Accuracy</th>
-<td>3mm</td>
-</tr>
-<tr>
-<th>Measuring Angle</th>
-<td>15`</td>
-</tr>
-<tr>
-<th>Dimension</th>
-<td>45 x 20 x 15mm</td>
-</tr>
-</table>
-<br>
- 
-## HC-SR04 Ultrasonic Sensor Pinout
-<img src="IMG\HC-SR04-Ultrasonic-Sensor-Pinout.png">
+# C0015-Ultrasonic Distance Sensor
 
-- VCC- 5V
-- GND -GND
-- Trig- pin9
-- Echo- pin10
-- Using the Trig we sent the ultrasound wave from the transmitter and with the Echo pin we listen for the reflected signal.
-## How the HC-SR04 Ultrasonic Distance Sensor Works?
-- It emits an ultrasound at 40000Hz which travels through the air and if there is an object or obstacle on its path it will bounce back to the module.
-- Considering the travel time and the speed of the sound you can calculate the distance.
-<img src="IMG\How-Ultrasonic-Sensor-Working-Principle-Explained-768x394.png">
-- In order to generate the Ultrasound we need to set the Trig pin on a High Stage for 10 microsecond.
-- That will send out an 8 cycle ultrasonic burst which will travel at the speed of sound.
-- The Echo pins goes high right away after that 8 cycle ultrasonic burst is sent,and it starts listining or waiting for that wave to be reflected from an object.
-- If there is no object or reflected pulse,the Echo pin will time-out after 38ms and get back to low state.
-<img src="IMG\Ultrasonic-Sensor-Diagram.png">
-- If we receive a reflected pulse,the Echo pin will go down sooner than those 38ms.
-- According to the amount of time the Echo pin was HIGH, we can determine the distance the sound wave traveled,thus the distance from the sensor to the object.
+## Introduction
 
-## How to Connect HC-SR04 Ultrasonic Sensor to Arduino
-<img src="IMG\HC-SR04-Ultrasonic-Sensor-Arduino-Connection-Wiring-1024x580.png">
+- The HC-SR04 ultrasonic distance sensor is a commonly used sensor for measuring distances from 2cm to 400cm (about an inch to 13 feet).
+- It works based on the principle of sending and receiving ultrasonic sound waves, similar to SONAR used in submarines. The sensor is affordable, easy to use, and provides accurate distance measurements with a high resolution of 3mm.
 
-- The Ground and the VCC pins of the module needs to be connected to the Ground and the 5V pins on the arduino board respectively and the trig and echo pins to any Digital I/O pin on the Arduino board.
+## Image
+
+![IMG](IMG/IMG.png)
+
+## How to connect to a circuit
+
+- To connect the HC-SR04 ultrasonic distance sensor to an Arduino or other microcontroller, you need to connect the VCC and GND pins to the 5V and GND pins on the board respectively.
+- You also need to connect the Trig and Echo pins to any digital input/output pins on the board.
+
+## The theory behind the components
+
+- The HC-SR04 ultrasonic distance sensor works by sending an ultrasonic sound wave at a frequency of 40000Hz, which travels through the air and bounces back to the sensor when it encounters an obstacle or object.
+- The sensor then calculates the distance based on the travel time of the sound wave and the speed of sound.
+
+## Features
+
+The HC-SR04 ultrasonic distance sensor has the following features:
+
+- Operating voltage: 5V DC
+- Operating current: 15mA
+- Operating frequency: 40kHz
+- Minimum range: 2cm/1 inch
+- Maximum range: 400cm/13 feet
+- Accuracy: 3mm
+- Measuring angle: 15 degrees
+- Dimension: 45 x 20 x 15mm
+
+## Statistics
+
+- The HC-SR04 ultrasonic distance sensor is a widely used sensor in robotics, automation, and other applications that require accurate distance measurements. It is easy to use, affordable, and provides accurate measurements with a high resolution of 3mm.
