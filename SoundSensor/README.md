@@ -1,8 +1,6 @@
 # C0012-Sound sensor
 
-## Introduction
-
-- A Sound Sensor is an electronic device that detects sound waves in a particular area. The sensor uses a microphone to detect sound and sends the output to an op-amp, which amplifies the signal and converts it to a digital or analog output. The sound level set point can be adjusted using a potentiometer on the module.
+A Sound Sensor is an electronic device that detects sound waves in a particular area. The sensor uses a microphone to detect sound and sends the output to an op-amp, which amplifies the signal and converts it to a digital or analog output. The sound level set point can be adjusted using a potentiometer on the module.
 
 ## Image
 
@@ -30,4 +28,6 @@ Some of the key features of a Sound Sensor include:
 
 ## Statistics
 
-- Sound sensors are widely used in the fields of security, automation, and entertainment. They can be used to detect and monitor sound levels in an environment, which can be useful in ensuring the safety and security of people and property. Sound sensors are also used in the entertainment industry for recording and amplifying sound.
+- Sound sensors are widely used in the fields of security, automation, and entertainment. 
+- They can be used to detect and monitor sound levels in an environment, which can be useful in ensuring the safety and security of people and property. 
+- Sound sensors are also used in the entertainment industry for recording and amplifying sound.
