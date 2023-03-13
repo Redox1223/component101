@@ -1,37 +1,25 @@
-# Knock Sensor
+# C0027-Knock Sensor
 
-- A knock Sensor or a Vibration Sensor is a simple device that detects vibrations or shocks from knocking or tapping it.
-- It is basically an electronic switch which normally open.
-- When it detects any shock or vibrations, it close(for that moment and returns back to its default open position.)
-- Several Knock Sensors are available in the market and the cheaper ones are called KY-031 Knock Sensors.
-- The following image shows the Knock Sensor Module used in this project.
+## Introduction
 
-![The Knock Sensor](IMG/Knock-Sensor-with-Arduino-Knock-Sensor-Vibration-Sensor.jpg)
+- A Knock Sensor or a Vibration Sensor is a simple electronic device that detects vibrations or shocks from tapping or knocking it. It is commonly used in automotive engines to detect engine knocking or detonation, but can also be used in other applications such as security systems or home automation.
 
-## Components of a Knock/Vibration Sensor
+## Image
 
-- A typical knock sensor consists of the main sensing element,which is a conductive vibration spring,a Resistor and three Pins.
-- The three pins of the Knock Sensor Module are GND,+5V and S.
-- The following image shows the components of a Knock Sensor Module as well as the pins on it.
+![IMG](IMG/IMG.png)
 
-![Parts of the Sensor](IMG/Knock-Sensor-with-Arduino-Knock-Sensor-Pins.jpg)
+## How to Connect to a Circuit
 
-## Schematic of Knock Sensor
+- To interface the Knock Sensor Module with an Arduino Uno, connect the GND pin to the GND pin on the Arduino, the +5V pin to the 5V pin on the Arduino, and the S pin to any digital input pin on the Arduino.
 
-- In order to understand how a Knock Sensor Module works,I thing knowing its schematic is important.
-- The following image shows a simplistic represantation of the schematic of a Knock Sensor Module.
+## Theory Behind the Components
 
-![Circuit Diagram](IMG/Interfacing-Knock-Sensor-with-Arduino-Circuit-Diagram-768x617.jpg)
+- The output pin of the sensor (connected to one end of the switch) is pulled HIGH with the help of a 10K ohm pull-up resistor. Under normal conditions, i.e. when there is no shock or vibration, the output of the Knock Sensor Module is HIGH. When the sensor detects any vibrations or knocks, the vibrating spring (i.e. switch) closes and the output of the sensor becomes LOW.
 
-## How does a Knock Sensor Work?
+## Features
 
-- If you take a look at the schematic of the knock sensor,it basically consists of a switch and a resistor.
-- The output pins of the sensor(Which is connected to one end of the switch) is pulled HIGH with the help of a 10K ohoms Pull- up resistor.
-- Under normal condition i.e when there is no there is no shock or vibrations,the output of the Knock Sensor is HIGH.
-- When the sensor detects any vibrations or knocks,the vibrating spring i.e switch closes and hence the output of the sensor(at the output pin ) will become LOW.
+- Several types of Knock Sensors are available in the market, with the cheaper ones being called KY-031 Knock Sensors. They are small in size, easy to use, and can be used in a variety of applications.
 
-## Circuit Diagram for Interfacing Knock Sensor with Arduino
+## Statistics
 
-- The following image shows the circuit daigram of interfacing a Knock Sensor with Arduino Uno.
-
-![Circuit Diagram2](IMG/Interfacing-Knock-Sensor-with-Arduino-Circuit-Diagram-768x617.jpg)
+- As a passive electronic device, the Knock Sensor Module does not consume much power and has a long lifespan. Its sensitivity can be adjusted using a potentiometer on the module, allowing it to detect different levels of vibration or shock.
