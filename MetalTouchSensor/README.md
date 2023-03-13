@@ -41,5 +41,5 @@ The resistors used in the KY-036 touch sensor module are as follows:
 - R4: 1 kΩ
 - R5: 1 kΩ
 - R6: 100 kΩ
-- The resistors are used to limit the current from burning the module. The LED L1 in the module lights up to show if the module is working properly, and the LED L2 lights up every time the sensor is touched. 
-- The sensor can be used in various applications such as touch screens, security systems, and power tools
+- The resistors are used to limit the current from burning the module. The LED L1 in the module lights up to show if the module is working properly, and the LED L2 lights up every time the sensor is touched.
+- The sensor can be used in various applications such as touch screens, security systems, and power tools.
