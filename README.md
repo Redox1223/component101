@@ -20,12 +20,12 @@ In this project is discribe arduino component review.
 | C0014 | [Water Level Sensor (Leak Sensor)](/WaterLevelSensor)                  | ✅  | ✅ |
 | C0015 | [Ultrasonic Distance Sensor](/UltrasonicDistanceSensor)                | ✅  | ✅ |
 | C0016 | [Two-color LED Module](/TwoColorLEDModule)                             | ✅  | ✅ |
-| C0017 | [Tracking Sensor](/TrackingSensor)                                     | ✅     |
+| C0017 | [Tracking Sensor](/TrackingSensor)                                     | ✅  |✅  |
 | C0018 | [Tilt Switch Module](/TiltSensor)                                      | ✅     |
-| C0019 | [GPS NEO 6m module](/GPSNEO6mModule)                                   | ✅   | ✅ |
-| C0020 | [Rotary Encoder Module](/RotaryEncoderModule)                          | ✅     |
+| C0019 | [GPS NEO 6m module](/GPSNEO6mModule)                                   | ✅  | ✅ |
+| C0020 | [Rotary Encoder Module](/RotaryEncoderModule)                          | ✅  |✅  |
 | C0021 | [RGB SMD LED](/RGBSMDModule)                                           | ✅     |
-| C0022 | [Photoresistor Light Sensor](/PhotoresistorSensorLightSensor)          | ✅     |
+| C0022 | [Photoresistor Light Sensor](/PhotoresistorSensorLightSensor)          | ✅  |✅  |
 | C0023 | [Momentary Button Module](/MomentryButtonModule)                       | ✅     |
 | C0024 | [Metal Touch Sensor](/MetalTouchSensor)                                | ✅     |
 | C0025 | [Magnetic Dry Reed Switch](/MagneticReedSwitchModule)                  | ✅     |
