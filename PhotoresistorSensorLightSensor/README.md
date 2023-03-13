@@ -1,32 +1,25 @@
-# Photo Resistor Sensor
+# C0022-Photo Resistor Sensor
 
-## What is the photoresister
+## Introduction
 
-- From the name we can understand that it is also a type of resistor whose resistance values change as the light intensity is changed in its surroundings.
+- A photoresistor is a type of semiconductor device that changes its resistance as the light intensity in its surroundings changes. This sensor is used in a variety of applications, including automatic streetlights, cameras, and other electronic devices.
 
-![The working principle](IMG/word-image-85.png)
+## Image
 
-## How does a photoresister work?
+![IMG](IMG/IMG.png)
 
-- The photoresister is a type of a semiconductor device and when the light intensity increases in its surrounding the electrics in the valence shell break the bonds and become free electrons as a result holes are created which create the flow of electricity.
-- Normally when light intensity is low the resistance of the resitor is quite high and there is no current flow.
-- However, when the light intensity increases the current starts to flow which causes the resistance to decrease and, in this way,the photoresistor works.
+## How to Connect to a Circuit
 
-![Scific idea](IMG/word-image-89-768x388.png)
+- To control an LED using a photoresistor, we need to set the threshold value in the microcontroller code to turn the LED on and off. The hardware assembly includes connecting the photoresistor with the analog pin A0 of the Arduino Uno and connecting the LED with the digital pin 5 of the Arduino Uno. The photoresistor is also connected to the 5V and Ground pins of the Arduino Uno.
 
-## How to control the LED using Photoresistor(LDR) with Arduino
+## Theory Behind the Components
 
-- To control the light with a photoresister is quite simple,we just have to set the threshold value in the microcontroller code by which the LED will turn on and off.
-- The pactrical application for the use of photoresistor is making automatic street light which automatically turn off when the sun rises and turn on after sunset.
+- When the light intensity increases in the surroundings of the photoresistor, electrons in the valence shell break the bonds and become free electrons, creating holes and allowing the flow of electricity. The resistance of the resistor is high when the light intensity is low, and there is no current flow. However, when the light intensity increases, the current starts to flow, causing the resistance to decrease.
 
-![Circuit diagram description](IMG/diagram-schematic-description-automatically-gene-2-768x448.png)
+## Features
 
-## How to create hardware assembly for controlling LED using photoresister(LDR)with Arduino Uno
+- The photoresistor is a simple and inexpensive sensor that is used to detect the presence of light. It is easy to interface with microcontrollers and is commonly used in various applications, including automatic lighting systems and light meters.
 
-- To implement the circuit on the hardware we have first defined the hardware assembly given in the image below:
+## Statistics
 
-![Circuit Diagram](IMG/a-picture-containing-text-electronics-circuit-d-2-768x445.png)
-
-- To use the photoresistor for controlling the LED we have connected the photoresister with the analog pin A0 of the Arduino Uno using the blue wire.
-- Whereas to connect the LED we have used the digital pin 5 of the arduino uno using the brown wire.
-- To connect the photoresistor with the supply we have used the 5 Volt and Ground pin of the Arduino Uno.
+- The resistance value of a photoresistor typically ranges from a few hundred ohms to several megohms, depending on the intensity of light in its surroundings. They can be found in various sizes and shapes, such as round or square, and are available with different sensitivities to light.
