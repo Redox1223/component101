@@ -1,37 +1,37 @@
-# Breadboard Power Supply Module
+# C0041-Breadboard Power Supply Module
 
-![Module](IMG/MB102-Breadboard-Power-Supply-Module.jpg)
+## Introduction
 
-- The 3.3V/5V output MB102 Breadboard power supply module is an easy to use,most useful breadboard component that can be added with any breadboard related projects where 5V,3.3V or both power requirments are required.
-- Its ease of use allows users to connect any DC power supply unit that has 6.5- 12V DC power output from a barrel jack.
-- The board has two independent channels of power output for breadboards.These power channels can be independently configured for 3.3V,0V and 5V operations.
+- The breadboard power supply module is a useful component that provides 5V, 3.3V or both power requirements to breadboard related projects. It has two independent channels of power output and can be easily connected to any DC power supply unit that has a 6.5-12V DC power output from a barrel jack. This module also offers a push switch to turn ON and OFF the entire power supply module.
 
-- The module also offers a push switch to turn OFF and ON the entire power supply module.
-- An additional feature is a USB input with two 5V,two 3.3V and 4 GND pinout for additional power pin requirements.
-- The power LED will notify the user of input power availablity status.
+## Image
 
-## Pin Description
+![IMG](IMG/IMG.png)
 
-### PIN Name-->Description
+## How to connect to a circuit
 
-- LEFT jumper-->5V,OFF(0V),3.3V Selection
-- LEFT jumper-->5V,OFF(0V),3.3V Selection
-- 4-Berg Header--> GND 
-- 2-Berg Header-->3.3V
-- 2-Berg Header-->5.5V
+The module can be easily connected to a circuit by following these steps:
 
-## Feature and Speacifications
+- Connect the DC power supply unit to the barrel jack input of the module.
+- Select the desired voltage level (5V, 3.3V, or OFF) using the jumper on the left side of the module.
+- Connect the GND, 5V, and 3.3V output pins of the module to the appropriate components on the breadboard using the onboard berg male header.
 
-- Input voltage:6.5V-12V
-- Two Independent channel
-- Output voltage:5V,3.3V(Adjustable via jumper,0V,3.3V and 5V configuration)
-- Output current:Maximum output current 700mA
-- Onboard berg male header for GND,5V,3.3V output
-- ON-OFF Switch available
-- USB(Type-A ) input available.
-- DC Barrel jack input available
-- Onboard power LED
-- Dimension:53mm X 33mm 
- 
-## The Parts of the Circuits
-![Parts of the circuit](IMG/download.jpeg)
+## The theory behind the components
+
+- The breadboard power supply module consists of a DC-DC converter that converts the input voltage to the desired output voltage level. The voltage level can be selected using the jumper on the left side of the module. The module also includes a push switch to turn ON and OFF the entire power supply module and a power LED to indicate input power availability status.
+
+## Features
+
+- Two independent channels of power output for breadboards.
+- Output voltage can be independently configured for 3.3V, 0V, and 5V operations.
+- ON-OFF switch available.
+- USB (Type-A) input available.
+- DC Barrel jack input available.
+- Onboard power LED.
+- Maximum output current of 700mA.
+
+## Statistics
+
+- Input voltage range: 6.5V-12V.
+- Output voltage: 5V, 3.3V (adjustable via jumper).
+- Dimension: 53mm x 33mm.
