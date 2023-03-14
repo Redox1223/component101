@@ -37,23 +37,23 @@ In this project is discribe arduino component review.
 | C0031 | [High-Voltage Relay Module](/HighVoltageRelayModule)                   | ✅  | ✅ |
 | C0032 | [High Sensitivity Microphone sensor](/HighSensitivityMicrophoneSensor) | ✅  | ✅ |
 | C0033 | [Heatbeat/Pulse Sensor](/PulseSensor)                                  | ✅  | ✅ |
-| C0034 | [Flamem IR Sensor](/FlameIRSensor)                                     | ✅  |  ✅ |
-| C0035 | [Active piezo-Buzzer Module](/ActivePiezoBuzzerModule)                 | ✅     |
-| C0036 | [Ardiuno MKR 1000 WiFi](/MKR1000WifiModule)                            | ✅     |
-| C0037 | [Gas Sensor](/GasSensor)                                               | ✅     |
-| C0038 | [MOSFET Module](/MOSFETDriveModule)                                    | ✅     |
-| C0039 | [Touch Sensor](/TouchSensorModule)                                     | ✅     |
-| C0040 | [Keypad](/KeypadArduino)                                               | ✅     |
-| C0041 | [Breadboard Power Supply Module](/BreadboardPowerSupplyModule)         | ✅     |
-| C0042 | [PH Sensor](/PHSensor)                                                 | ✅     |
-| C0043 | [Reed Switch Module](/ReedSwitchModule)                                | ✅     |
-| C0044 | [Laser Module](/LaserModule)                                           | ✅     |
-| C0045 | [Liquid crystal displays (LCDs)](/LiquidCrystalSensor)                 | ✅     |
-| C0046 | [GSM Module](/GSMmodule)                                               | ✅     |
-| C0047 | [Flinger Print Scanner](/FingerPrintSensor)                            | ✅   |  ✅ |
-| C0048 | [QR Reader](/QRReader)                                                 | ✅     |
-| C0049 |[Accelerometer and  Gyroscope Sensor](/AccelerometerAndGyroscopeSensor)                                                 | ✅     |
-| C0050 | [Rain Sensor](/RainSensor)                                             | ✅     |  
+| C0034 | [Flamem IR Sensor](/FlameIRSensor)                                     | ✅  | ✅ |
+| C0035 | [Active piezo-Buzzer Module](/ActivePiezoBuzzerModule)                 | ✅  | ✅ |
+| C0036 | [Ardiuno MKR 1000 WiFi](/MKR1000WifiModule)                            | ✅  | ✅ |
+| C0037 | [Gas Sensor](/GasSensor)                                               | ✅  | ✅ |
+| C0038 | [MOSFET Module](/MOSFETDriveModule)                                    | ✅  | ✅ |
+| C0039 | [Touch Sensor](/TouchSensorModule)                                     | ✅  | ✅ |
+| C0040 | [Keypad](/KeypadArduino)                                               | ✅  | ✅ |
+| C0041 | [Breadboard Power Supply Module](/BreadboardPowerSupplyModule)         | ✅  | ✅ |
+| C0042 | [PH Sensor](/PHSensor)                                                 | ✅  | ✅ |
+| C0043 | [Reed Switch Module](/ReedSwitchModule)                                | ✅  | ✅ |
+| C0044 | [Laser Module](/LaserModule)                                           | ✅  | ✅ |
+| C0045 | [Liquid crystal displays (LCDs)](/LiquidCrystalSensor)                 | ✅  | ✅ |
+| C0046 | [GSM Module](/GSMmodule)                                               | ✅  | ✅ |
+| C0047 | [Flinger Print Scanner](/FingerPrintSensor)                            | ✅  | ✅ |
+| C0048 | [QR Reader](/QRReader)                                                 | ✅  | ✅ |
+| C0049 |[Accelerometer and  Gyroscope Sensor](/AccelerometerAndGyroscopeSensor)                                                 | ✅  | ✅ |
+| C0050 | [Rain Sensor](/RainSensor)                                             | ✅  | ✅ |  
 
 ## License
 
