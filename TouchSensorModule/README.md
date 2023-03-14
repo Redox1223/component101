@@ -6,7 +6,7 @@
 
 ## Image
 
-![IMG](IMG/IMG.jpg)
+![IMG](IMG/IMG.png)
 
 ## How to connect to a circuit
 
