@@ -1,26 +1,31 @@
-# High Voltage Relay Module
+# C0031-High Voltage Relay Module
 
-- One of the best of the Arduino is the ability to connect relays.
-- Relays allow a circuit of one voltage or current to be operated by a circuit of a different voltage or current.
-- In the case of Arduino that operates at either 3.3V or 5V DC,connecting a relay allows us to operate a device that uses 110V to 240V AC.
-- Simply put with a relay your Arduino can control your coffee maker,a lamp,or other high voltage device.
+## Introduction
 
-## Understanding the 5V Relay
+- The high voltage relay module is an Arduino-compatible device that allows you to control high voltage devices with your Arduino. With the help of a relay, you can operate a device that uses 110V to 240V AC, using the 3.3V or 5V DC supplied by your Arduino.
 
-- the relay we chose is already mounted on a circuit board,and includes screw terminals.
-- The pin on the board are the low voltage terminals and will connect to Arduino.
-- The screw terminals are the high voltage side of the relay and these will connect to our lamp.
-![Component](IMG/Arduino-Relay-Tutorial-with-Photoresistor-0002-Relay-Pinout-SRD-05VDC-SL-C.jpg)
+## Image
 
-- On the low voltage side of the relay you'll see three pins.There should be labeled GND,VCC and S.
-- GND is for ground.VCC is for +5V, and S is for signal.
-- On the high voltage side of the relay have three srew terminals that should be labeled,NC,C and NO.
-- NC is for normally-closed,No is for normally-open, and C is for common.
+![IMG](IMG/IMG.png)
 
-## Normally-Closed VS. Normally Open Contacts
+## How to connect to a circuit
 
-![Diagram](IMG/normally-open-vs-normally-closed-the-geek-pub-relay.jpg)
+- The low voltage side of the relay has three pins - GND, VCC, and S. These pins will connect to your Arduino board. The high voltage side of the relay has three screw terminals - NC, NO, and C. These terminals will connect to your high voltage device.
 
-## Controlling a relay with a photoresistor
+## The theory behind the components
 
-![Circuit Diagram](IMG/Arduino-Relay-Tutorial-with-Photoresistor-0001-Wirding-Diagram-1920x1113.jpg)
+- A relay is an electrically operated switch. It allows a circuit of one voltage or current to be operated by a circuit of a different voltage or current. In the case of the high voltage relay module, the low voltage side of the relay is connected to your Arduino, and the high voltage side of the relay is connected to your high voltage device.
+
+## Features
+
+The high voltage relay module comes with the following features:
+
+- It is an Arduino-compatible device
+- It allows you to control high voltage devices with your Arduino
+- It comes with a pre-mounted relay and screw terminals for easy connection
+- The low voltage side of the relay has three pins - GND, VCC, and S
+- The high voltage side of the relay has three screw terminals - NC, NO, and C
+
+## Statistics
+
+- There are various types of high voltage relay modules available in the market. The one mentioned in this tutorial is a 5V relay module. It can handle up to 10A current and 250V AC voltage. The module comes with a pre-mounted SRD-05VDC-SL-C relay

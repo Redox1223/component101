@@ -1,25 +1,33 @@
-# Two Color LED Module
+# C0016-Two Color LED Module
 
-- A two color LED or sometimes called a double colour LED is a light emitting diode that emits 2 different colors of light commonly the red and green.
-- It is a semiconductor diode which light up when voltage is applied.
-- Using a PWM, you can manipulate the intensities of each color.
+The two color LED module is a light emitting diode that can emit two different colors of light, typically red and green. It is commonly used in electronic projects that require status indicators or display functions. In this module, the two LEDs are connected back to back, and their anodes are connected to separate pins. By controlling the voltage and duty cycle of each pin using PWM, you can create various colors and shades.
 
-![LED](IMG/Two_Color_LED.jpeg)
-![Pinout](IMG/LED5.png)
+## Image
 
-- As we can see on the image above,this module has 3 pins;the GND,the RED and the GREEN.
-- This component is a common cathode module as the cathode of the LED are affixed and found in a single common pin.
+![IMG](IMG/IMG.png)
 
-## How does a Double Colour LED work?
+## How to Connect to a Circuit
 
-- The double colour LED has 2 terminals or pins,and are connected back to back;Anode to Cathode.
-- Once a positive voltage is directly supplied to the terminal,for example on the green anode,it will emit light,and this also applied to the Red anode.
+The two color LED module has three pins: GND, RED, and GREEN. The GND pin should be connected to the ground of the circuit. The RED and GREEN pins should be connected to two separate digital output pins of the microcontroller or Arduino board. Here is a wiring diagram for connecting the two color LED module to an Arduino Uno:
 
-![LED1](IMG/LED1.png)
+## The Theory Behind the Components
 
-- Only 1 LED can receive positive voltage at a time because of the 2 terminal system resulting in a limited range of colors.
-- Now that we know this type of LED works,let us get to setting it up on Arduino Uno.
+The two color LED module is a type of light emitting diode, which is a semiconductor device that emits light when a voltage is applied. In this module, two LEDs of different colors are connected back to back, and their anodes are connected to separate pins. When a positive voltage is applied to the anode of one LED, it emits light of one color (e.g., green), and when the voltage is applied to the anode of the other LED, it emits light of the other color (e.g., red). By varying the voltage and duty cycle of each pin using PWM, you can control the intensity of each color and create various colors and shades.
 
-## Two Colour LED Wiring
+## Features
 
-![LED2](IMG/2LED.png)
+- Two color LED module can emit two different colors of light, typically red and green 
+- Both LEDs are connected back to back, and their anodes are connected to separate pins
+- Can be controlled using PWM to create various colors and shades
+- Common cathode configuration
+
+## Statistics
+
+- Operating Voltage: 2.0V - 2.5V
+- Forward Current (Green): 20mA
+- Forward Voltage (Green): 2.0V - 2.5V
+- Forward Current (Red): 20mA
+- Forward Voltage (Red): 2.0V - 2.5V
+- Reverse Voltage: 5V
+- Power Dissipation: 100mW
+- Operating Temperature: -40°C to +80°C
