@@ -1,10 +1,6 @@
 # C0042-pH Sensor
 
-## Introduction
-
-- A pH sensor is an essential instrument used to measure the quality of water, which is crucial for various applications.
-pH sensors can measure the acidity and alkalinity of water and other solutions, making them useful in monitoring water quality.
-- In this article, we will discuss the working principle, types, and specifications of pH sensors.
+A pH sensor is an essential instrument used to measure the quality of water, which is crucial for various applications. pH sensors can measure the acidity and alkalinity of water and other solutions, making them useful in monitoring water quality. In this article, we will discuss the working principle, types, and specifications of pH sensors.
 
 ## Image
 
@@ -18,13 +14,11 @@ pH sensors can measure the acidity and alkalinity of water and other solutions, 
 
 ## The theory behind the components
 
-- The pH sensor works on the principle of ion exchange, where the hydrogen ions in the test solution exchange with positively charged ions on the glass bulb of the sensor.
-- This creates an electrochemical potential across the bulb, which is measured by the electronic amplifier and transformed into pH units using the Nernst equation.
-- The reference electrode is made of a metallic conductor that is insensitive to the pH of the solution, and a porous ceramic membrane allows the electrolyte solution to interact with the test solution.
+The pH sensor works on the principle of ion exchange, where the hydrogen ions in the test solution exchange with positively charged ions on the glass bulb of the sensor. This creates an electrochemical potential across the bulb, which is measured by the electronic amplifier and transformed into pH units using the Nernst equation. The reference electrode is made of a metallic conductor that is insensitive to the pH of the solution, and a porous ceramic membrane allows the electrolyte solution to interact with the test solution.
 
 ## Features
 
-- pH sensors can detect pH levels between 0 and 14 and are useful in assessing the quality of both soil and water.
+- PH sensors can detect pH levels between 0 and 14 and are useful in assessing the quality of both soil and water.
 - There are different types of pH sensors available, including combination, differential, lab-grade, and process pH sensors.
 - The specifications of a typical pH sensor include voltage, current, concentration range, temperature, response time, stability time, power consumption, size, and weight.
 
