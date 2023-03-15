@@ -1,8 +1,6 @@
 # Active Piezo Buzzer Module
 
-## Introduction
-
-- The Active Piezo Buzzer Module is a type of piezoelectric buzzer that only requires a DC voltage to produce sound. This makes it easy to use in electronics projects, such as alarms or notifications, or even programmed to produce musical notes when connected to an Arduino.
+The Active Piezo Buzzer Module is a type of piezoelectric buzzer that only requires a DC voltage to produce sound. This makes it easy to use in electronics projects, such as alarms or notifications, or even programmed to produce musical notes when connected to an Arduino.
 
 ## Image
 

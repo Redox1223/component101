@@ -28,6 +28,6 @@ Some of the key features of a Sound Sensor include:
 
 ## Statistics
 
-- Sound sensors are widely used in the fields of security, automation, and entertainment. 
-- They can be used to detect and monitor sound levels in an environment, which can be useful in ensuring the safety and security of people and property. 
+- Sound sensors are widely used in the fields of security, automation, and entertainment.
+- They can be used to detect and monitor sound levels in an environment, which can be useful in ensuring the safety and security of people and property.
 - Sound sensors are also used in the entertainment industry for recording and amplifying sound.

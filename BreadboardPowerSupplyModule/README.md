@@ -1,8 +1,6 @@
 # C0041-Breadboard Power Supply Module
 
-## Introduction
-
-- The breadboard power supply module is a useful component that provides 5V, 3.3V or both power requirements to breadboard related projects. It has two independent channels of power output and can be easily connected to any DC power supply unit that has a 6.5-12V DC power output from a barrel jack. This module also offers a push switch to turn ON and OFF the entire power supply module.
+The breadboard power supply module is a useful component that provides 5V, 3.3V or both power requirements to breadboard related projects. It has two independent channels of power output and can be easily connected to any DC power supply unit that has a 6.5-12V DC power output from a barrel jack. This module also offers a push switch to turn ON and OFF the entire power supply module.
 
 ## Image
 
@@ -18,7 +16,7 @@ The module can be easily connected to a circuit by following these steps:
 
 ## The theory behind the components
 
-- The breadboard power supply module consists of a DC-DC converter that converts the input voltage to the desired output voltage level. The voltage level can be selected using the jumper on the left side of the module. The module also includes a push switch to turn ON and OFF the entire power supply module and a power LED to indicate input power availability status.
+The breadboard power supply module consists of a DC-DC converter that converts the input voltage to the desired output voltage level. The voltage level can be selected using the jumper on the left side of the module. The module also includes a push switch to turn ON and OFF the entire power supply module and a power LED to indicate input power availability status.
 
 ## Features
 

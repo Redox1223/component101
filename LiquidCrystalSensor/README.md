@@ -1,8 +1,6 @@
 # C0045-Liquid crystal displays (LCDs)
 
-## Introduction
-
-- An LCD character display is a type of display that can output individual ASCII characters with fixed size. It consists of rectangular areas composed of a 5x8 pixel grid, with each pixel able to light up individually. The number of rectangular areas defines the size of the LCD, with the most popular being the 16x2 LCD.
+An LCD character display is a type of display that can output individual ASCII characters with fixed size. It consists of rectangular areas composed of a 5x8 pixel grid, with each pixel able to light up individually. The number of rectangular areas defines the size of the LCD, with the most popular being the 16x2 LCD.
 
 ## Image
 
