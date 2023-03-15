@@ -21,7 +21,7 @@ In this project is discribe arduino component review.
 | C0015 | [Ultrasonic Distance Sensor](/UltrasonicDistanceSensor)                | ✅  | ✅ |
 | C0016 | [Two-color LED Module](/TwoColorLEDModule)                             | ✅  | ✅ |
 | C0017 | [Tracking Sensor](/TrackingSensor)                                     | ✅  | ✅ |
-| C0018 | [Tilt Switch Module](/TiltSensor)                                      | ✅     |
+| C0018 | [Tilt Switch Module](/TiltSensor)                                      | ✅  | ✅ |
 | C0019 | [GPS NEO 6m module](/GPSNEO6mModule)                                   | ✅  | ✅ |
 | C0020 | [Rotary Encoder Module](/RotaryEncoderModule)                          | ✅  | ✅ |
 | C0021 | [RGB SMD LED](/RGBSMDModule)                                           | ✅     |
