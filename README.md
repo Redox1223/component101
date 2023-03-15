@@ -28,7 +28,7 @@ In this project is discribe arduino component review.
 | C0022 | [Photoresistor Light Sensor](/PhotoresistorSensorLightSensor)          | ✅  | ✅ |
 | C0023 | [Momentary Button Module](/MomentryButtonModule)                       | ✅  | ✅ |
 | C0024 | [Metal Touch Sensor](/MetalTouchSensor)                                | ✅  | ✅ |
-| C0025 | [Magnetic Dry Reed Switch](/MagneticReedSwitchModule)                  | ✅     |
+| C0025 | [Magnetic Dry Reed Switch](/MagneticReedSwitchModule)                  | ✅  | ✅ |
 | C0026 | [Logic Level Shifter](/LogicLevelShifter)                              | ✅  | ✅ |
 | C0027 | [Knock Sensor](/KnockSensor)                                           | ✅  | ✅ |
 | C0028 | [Joystick Module](/JoystickModule)                                     | ✅  | ✅ |
