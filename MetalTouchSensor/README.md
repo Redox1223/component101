@@ -1,10 +1,6 @@
 # Metal Touch Sensor
 
-## Introduction
-
-- The KY-036 metal touch sensor module is a simple and easy-to-use touch sensor that detects electrical conductivity.
-- It is widely used in various applications such as touch screens, security systems, and power tools.
-- This module has an on-board touch sensor, which consists of a potentiometer, six resistors, and two LEDs.
+The KY-036 metal touch sensor module is a simple and easy-to-use touch sensor that detects electrical conductivity. It is widely used in various applications such as touch screens, security systems, and power tools. This module has an on-board touch sensor, which consists of a potentiometer, six resistors, and two LEDs.
 
 ## Image
 
@@ -17,8 +13,7 @@
 
 ## The theory behind the components
 
-- The KY-036 touch sensor module features a Darlington and PN transistor, which are controlled by an LM393 comparator IC that consists of two comparators. When the bar wire over the transistor is touched, the signal is controlled by the comparator.
-- The 50Hz AC signal in a modern home or office is  injected into a high-gain amplifier, and the output of this amplifier is connected to the comparator. The AC signal is then converted to a square wave. The sensitivity of the sensor can be adjusted by adjusting the trimmer.
+The KY-036 touch sensor module features a Darlington and PN transistor, which are controlled by an LM393 comparator IC that consists of two comparators. When the bar wire over the transistor is touched, the signal is controlled by the comparator. The 50Hz AC signal in a modern home or office is  injected into a high-gain amplifier, and the output of this amplifier is connected to the comparator. The AC signal is then converted to a square wave. The sensitivity of the sensor can be adjusted by adjusting the trimmer.
 
 ## Features
 

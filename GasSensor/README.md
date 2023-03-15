@@ -1,8 +1,6 @@
 # C0037-MQ2 Gas Sensor
 
-## Introduction
-
-- The MQ2 gas sensor is a widely used MOS (Metal Oxide Semiconductor) sensor that can detect various types of gases including LPG, Smoke, Alcohol, Propane, Hydrogen, Methane and Carbon Monoxide. It is often used in gas leakage detection devices in homes, industries, and automobiles.
+The MQ2 gas sensor is a widely used MOS (Metal Oxide Semiconductor) sensor that can detect various types of gases including LPG, Smoke, Alcohol, Propane, Hydrogen, Methane and Carbon Monoxide. It is often used in gas leakage detection devices in homes, industries, and automobiles.
 
 ## Image
 

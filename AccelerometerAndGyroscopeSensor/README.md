@@ -1,10 +1,8 @@
-# Accelerometer and Gyroscope Sensor
+# C0049-Accelerometer and Gyroscope Sensor
 
-## How Does an Accelerometer Work?
+## Introduction
 
 - To understand how accelerometers work,imagine a ball inside a 3D cube.
-![Explanation](IMG/Accelerometer-Working-Illustration-Weightless-State.jpg)
-
 - Assuming that the cube is in outer space,where everything is weightless,the ball will simply float in the center of the cibe.
 - Now assume that each wall represents a specific axis.
 - If we suddenly move the box to the left with acceleration 1g (a simple G-force 1g is equivalent to gravitational acceleration 9.8m/s2), the ball will undoubtedly hit the wall X.
@@ -90,4 +88,3 @@
 ## Wiring Diagram of Circuit
 
 ![Circuit](IMG/Wiring-MPU6050-Accel-Gyro-Module-with-Arduino.png)
-

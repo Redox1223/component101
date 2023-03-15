@@ -1,31 +1,27 @@
-# Touch Sensor
+# C0039-Touch Sensor
 
-- The digital Touch sensor module TTP223B is a low priced sensor that is compact and fairly easy to use.
-- It is commonly used to control devices where touch detected.
-- In simple ways,it acts as a button and has the same feature.The working principle of touch sensor is like a switch.
-- The resistive touch sensor consists of two conductive and a single non-conductive layer.
-- What happens is that the outside conductive layer and the inner layer get in contact which produces changes in voltage.
-- When pressure is applied to its surface(touch) then the circuit allows the current to flow through it.
-- The change in capacitance is used to detect the touch.It is made up of an Electrode film which is on top of a glass panel.The glass panel has a printed circuit pattern which is conductive in nature.
-- When pressure is applied to the touch sensor's surface,the output signal is HIGH otherwise it is LOW.
-- It goes in Low power mode if no one touches the sensor for a few seconds.
-- Some key advantages of using touch sensors are that they were very cost efficient and compact in nature.
-- They do not consume a lot of power and can be easily be integrated with microcontrollers to control devices in touch detection.
-- However,it requires proper amount of pressure in order to detect the touch.
+The TTP223B touch sensor module is a compact and low-cost sensor commonly used to detect touch and control devices. It works similar to a button and has a simple working principle.
 
-## Pinout
+## Image
 
-![Pinout](IMG/Touch-sensor.jpg)
+![IMG](IMG/IMG.png)
 
-- The touch sensor as you can see in the picture above consists of only three pins.
-- The SIG pin is connected with the digital pin of Arduino board.This will be set up as an input.
-- When pressure will be applied sensors surface,the signal will be 1 or HIGH.other wise it will be 0 or LOW.
-- The VCC pin is connected with the power pin of the Arduino.
-- The touch sensor module supports 2.0-5.5V DC power supply.We will connect this pin with Arduino 5V pin.
-- The GND pin is connected with the GND of the Arduino board.
+## How to connect to a circuit
 
-![Circuit Diagram](IMG/Touch-sensor-with-Arduino-connection-diagram.jpg)
+Connect the SIG pin to a digital pin of the Arduino board, the VCC pin to the power pin of the Arduino board (2.0-5.5V DC), and the GND pin to the GND of the Arduino board.
 
-- The connections of both the devices are fairly simple.Just connect the SIG pin of the sensor module with any appropriate digital pin of the Arduino board.
+## The theory behind the components
 
-![Sample Pic](IMG/Touch-sensor-with-Arduino-hardware.jpg)
+The touch sensor uses a resistive touch technology, which consists of two conductive layers and a non-conductive layer. When pressure is applied to the surface, the outside conductive layer and the inner layer get in contact, producing changes in voltage. The change in capacitance is used to detect the touch. It is made up of an electrode film which is on top of a glass panel. The glass panel has a printed circuit pattern which is conductive in nature.
+
+## Features
+
+- The touch sensor is cost-efficient, compact, and consumes low power.
+- It can be easily integrated with microcontrollers to control devices in touch detection.
+- It goes into low power mode if no one touches the sensor for a few seconds.
+
+## Statistics
+
+- The touch sensor module has only three pins and supports 2.0-5.5V DC power supply.
+- It is commonly used in various electronic projects, including robotics, home automation, and interactive displays.
+- However, it requires proper pressure to detect touch.

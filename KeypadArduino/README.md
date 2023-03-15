@@ -1,42 +1,27 @@
-# Keypads Arduino
+# C0040-Keypad
 
-- The buttons on a keypad are arrange in rows and columns.A 3X4 keypad has 4 rows and 3 coloumns,and a 4X4 keypad has 4 rows and 4 columns.
+Keypads are a type of input device that allows users to enter data into a system by pressing buttons in a specific pattern. They are commonly used in security systems, door locks, and other applications that require user input. In this tutorial, we will discuss how to connect a keypad to an Arduino and how it works.
 
-![Module](IMG/Arduino-Keypad-Tutorial-3X4-and-4X4-Keypads-610x703.jpg)
+## Image
 
-- Beneath each key is a membrane switch.Each switch in a row is connected to the other switches in the row by a conductive trace inderneath the pad.
-- Each switch in a column is connected the same way- one side of the switch is connected to all of the other switjches in that column by a conductive trace.
-- Each row and column is brought out to a single pin,for a total of 8 pins on the 4X4 keypad.
+![IMG](IMG/IMG.png)
 
-![Circuit](IMG/How-to-Set-Up-a-Keypad-on-an-Arduino-Back-Side-of-Keypad-610x718.jpg)
+The keypad consists of a set of buttons arranged in rows and columns, which are connected to an Arduino board through a set of pins. A 3X4 keypad has 4 rows and 3 columns, while a 4X4 keypad has 4 rows and 4 columns. Beneath each button is a membrane switch that is connected to other switches in the same row or column through a conductive trace.
 
-- Pressing a button closes the switch between a column and a row trace, allowing current to flow between a column pin and a row pin.
-- The schematic for a 4X4 keyboard shows how the rows and columns are connected.
-![Structer](IMG/Arduino-Keypad-Tutorial-4X4-Keypad-Schematic-610x494.png)
+## How to Connect to a Circuit
 
-- The Arduino detects which button is pressed by detecting  the row and column pin that's connected to the button.
+To connect the keypad to an Arduino, follow the circuit diagram shown above, depending on whether you have a 3X4 or 4X4 keypad. The rows and columns of the keypad are connected to digital pins on the Arduino board.
 
-- This happens in four steps.
+## The Theory Behind the Components
 
-1. First,when no buttons are pressed,all of the column pins are held HIGH,and all of the row pins are held LOW.
+When a button on the keypad is pressed, it closes the switch between a column and a row trace, allowing current to flow between a column pin and a row pin. The Arduino detects which button is pressed by detecting the row and column pin that's connected to the button. This is done by first setting all column pins to HIGH and all row pins to LOW. When a button is pressed, the column pin is pulled LOW, and the Arduino then switches each one of the row pins HIGH to detect which column pin returns to HIGH.
 
-![Step1](IMG/Arduino-Keypad-Tutorial-How-the-Keypad-Works-STEP-1-296x300.png)
+## Features
 
-2.When a button is pressed,the column pin is pulled LOW since the current from the HIGH column flows to the LOW row pin.
-![Step2](IMG/Arduino-Keypad-Tutorial-How-the-Keypad-Works-STEP-2-296x300.png)
+- The keypad is a low-cost and easy-to-use input device that can be integrated into a variety of projects.
+- It provides a simple and intuitive way for users to enter data into a system without the need for a separate keyboard or other input device.
 
-3.The Arduino now knows which column the button is in,son now it just needs to find the row the button is in.It does this by switching each one of the row pins HIGH, and at the same time reading all of the column pins to detect which column pin returns to HIGH.
+## Statistics
 
-![Step3](IMG/Arduino-Keypad-Tutorial-How-the-Keypad-Works-STEP-3-296x300.png)
-
-4.When the column pin goes HIGH again,the Arduino has found the row pin that is connected to the button.
-![Step4](IMG/Arduino-Keypad-Tutorial-How-the-Keypad-Works-STEP-4-296x300.png)
-
-- From the diagram above,you can see that the combination of row 2 and column 2 could only mean that the number 5 button was pressed.
-
-## Connect the Keypad to the Arduino
-
-![Pinout](IMG/Arduino-Keypad-Tutorial-4X4-and-3X4-Keypad-Pin-Diagram-610x580.png)
-
-- Follow the diagrams below to connect the keypad to an Arduino Uno,depending on whether you can have a 3X4 keypad.
-![Circuit Diagram](IMG/Arduino-Keypad-Tutorial-4X4-and-3X4-Keypad-Connection-Diagram-768x772.png)
+- There are many different types of keypads available, ranging from simple 3X4 and 4X4 keypads to more complex matrix keypads with a larger number of buttons.
+- The cost and complexity of the keypad will depend on its size, the number of buttons, and the features it provides. Keypads are commonly used in a wide range of applications, from security systems and door locks to electronic projects and DIY devices.

@@ -23,14 +23,14 @@ The NEO-6M GPS module works by receiving signals from navigation satellites orbi
 - 2.5m horizontal position accuracy
 - 5 location updates per second
 - Time-To-First-Fix of less than 1 second
-- 3.3V LDO regulator for stable power supply 
+- 3.3V LDO regulator for stable power supply
 - Battery and EEPROM for retaining critical data
 - Patch antenna with -161 dBm sensitivity
 
 ## Statistics
 
-- The NEO-6M GPS module consumes only 45mA current and has a MICREL's MIC5205 Ultra-Low Dropout 3V3 regulator. 
-- The HK24C32 Two Wire serial EEPROM is 4KB in size and is connected via 12C to the NEO-6M chip. 
-- The module's patch antenna has a sensitivity of -161 dBm. 
-- The GPS chip inside the module can track up to 22 satellites over 50 channels and achieve the industry's highest level of tracking sensitivity. 
+- The NEO-6M GPS module consumes only 45mA current and has a MICREL's MIC5205 Ultra-Low Dropout 3V3 regulator.
+- The HK24C32 Two Wire serial EEPROM is 4KB in size and is connected via 12C to the NEO-6M chip.
+- The module's patch antenna has a sensitivity of -161 dBm.
+- The GPS chip inside the module can track up to 22 satellites over 50 channels and achieve the industry's highest level of tracking sensitivity.
 - The module can perform 5 location updates in a second with 2.5m horizontal position accuracy, and it has a Time-To-First-Fix of less than 1 second
