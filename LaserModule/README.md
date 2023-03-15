@@ -1,8 +1,6 @@
 # C0044-Laser Module
 
-## Introduction
-
-- A laser module is a device that emits a focused beam of coherent light. It is commonly used as a laser pointer, and is compatible with microcontrollers such as Arduino, Raspberry PI, and ESP32. The laser module consists of a laser diode and a lens or other optical element that focuses the beam.
+A laser module is a device that emits a focused beam of coherent light. It is commonly used as a laser pointer, and is compatible with microcontrollers such as Arduino, Raspberry PI, and ESP32. The laser module consists of a laser diode and a lens or other optical element that focuses the beam.
 
 ## Image
 
@@ -10,11 +8,11 @@
 
 ## How to Connect to a Circuit
 
-- Connect the signal pin (S) of the laser module to pin 13 on the Arduino and the ground (-) to GND. The middle pin on the module is not used. Here is the connection diagram.
+Connect the signal pin (S) of the laser module to pin 13 on the Arduino and the ground (-) to GND. The middle pin on the module is not used. Here is the connection diagram.
 
 ## The Theory behind the Components
 
-- The laser diode is an electronic component that produces laser light through the process of stimulated emission. The emitted light is coherent and focused by a lens or other optical element. The laser module emits a dot-shaped, red laser beam.
+The laser diode is an electronic component that produces laser light through the process of stimulated emission. The emitted light is coherent and focused by a lens or other optical element. The laser module emits a dot-shaped, red laser beam.
 
 ## Features
 
