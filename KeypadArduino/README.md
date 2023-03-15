@@ -1,7 +1,5 @@
 # C0040-Keypad
 
-## Introduction
-
 Keypads are a type of input device that allows users to enter data into a system by pressing buttons in a specific pattern. They are commonly used in security systems, door locks, and other applications that require user input. In this tutorial, we will discuss how to connect a keypad to an Arduino and how it works.
 
 ## Image
