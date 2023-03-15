@@ -18,10 +18,10 @@ When a button on the keypad is pressed, it closes the switch between a column an
 
 ## Features
 
-- The keypad is a low-cost and easy-to-use input device that can be integrated into a variety of projects. 
+- The keypad is a low-cost and easy-to-use input device that can be integrated into a variety of projects.
 - It provides a simple and intuitive way for users to enter data into a system without the need for a separate keyboard or other input device.
 
 ## Statistics
 
-- There are many different types of keypads available, ranging from simple 3X4 and 4X4 keypads to more complex matrix keypads with a larger number of buttons. 
+- There are many different types of keypads available, ranging from simple 3X4 and 4X4 keypads to more complex matrix keypads with a larger number of buttons.
 - The cost and complexity of the keypad will depend on its size, the number of buttons, and the features it provides. Keypads are commonly used in a wide range of applications, from security systems and door locks to electronic projects and DIY devices.

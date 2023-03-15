@@ -39,8 +39,7 @@ The module can be powered by a range of voltages between 3.4V and 4.4V, making i
 
 ## Statistics
 
-- The SIM800L GSM module is a small and compact device, measuring just 24mm x 24mm x 3mm. 
+- The SIM800L GSM module is a small and compact device, measuring just 24mm x 24mm x 3mm.
 - It requires a power supply of between 3.4V and 4.4V, and can be connected to a microcontroller using a UART interface with baud rates ranging from 1200bps to 115200bps.
-
-- The module features an LED status indicator that blinks at different rates depending on the module's state, making it easy to diagnose any issues with the device. 
+- The module features an LED status indicator that blinks at different rates depending on the module's state, making it easy to diagnose any issues with the device.
 - It also has a range of pins for connecting external components, such as a microphone or speaker.

@@ -16,12 +16,12 @@ The touch sensor uses a resistive touch technology, which consists of two conduc
 
 ## Features
 
-- The touch sensor is cost-efficient, compact, and consumes low power. 
+- The touch sensor is cost-efficient, compact, and consumes low power.
 - It can be easily integrated with microcontrollers to control devices in touch detection.
 - It goes into low power mode if no one touches the sensor for a few seconds.
 
 ## Statistics
 
-- The touch sensor module has only three pins and supports 2.0-5.5V DC power supply. 
-- It is commonly used in various electronic projects, including robotics, home automation, and interactive displays. 
+- The touch sensor module has only three pins and supports 2.0-5.5V DC power supply.
+- It is commonly used in various electronic projects, including robotics, home automation, and interactive displays.
 - However, it requires proper pressure to detect touch.

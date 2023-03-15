@@ -16,9 +16,7 @@ To connect the moisture sensor to a circuit, follow these steps:
 
 ## The theory behind the components
 
-- A resistor soil moisture sensor works by using the relationship between electrical resistance and water content to gauge the moisture levels of the soil.
-- The two probes of the sensor allow the current to pass through the soil, which gives the resistance value to measure the moisture value.
-- The amplifier circuit amplifies the small signal from the sensor and provides a stable output for the microcontroller to read.
+A resistor soil moisture sensor works by using the relationship between electrical resistance and water content to gauge the moisture levels of the soil. The two probes of the sensor allow the current to pass through the soil, which gives the resistance value to measure the moisture value. The amplifier circuit amplifies the small signal from the sensor and provides a stable output for the microcontroller to read.
 
 ## Features
 
