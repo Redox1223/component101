@@ -24,7 +24,7 @@ In this project is discribe arduino component review.
 | C0018 | [Tilt Switch Module](/TiltSensor)                                      | ✅  | ✅ |
 | C0019 | [GPS NEO 6m module](/GPSNEO6mModule)                                   | ✅  | ✅ |
 | C0020 | [Rotary Encoder Module](/RotaryEncoderModule)                          | ✅  | ✅ |
-| C0021 | [RGB SMD LED](/RGBSMDModule)                                           | ✅     |
+| C0021 | [RGB SMD LED](/RGBSMDModule)                                           | ✅  | ✅ |
 | C0022 | [Photoresistor Light Sensor](/PhotoresistorSensorLightSensor)          | ✅  | ✅ |
 | C0023 | [Momentary Button Module](/MomentryButtonModule)                       | ✅  |
 | C0024 | [Metal Touch Sensor](/MetalTouchSensor)                                | ✅  | ✅ |
