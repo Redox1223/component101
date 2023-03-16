@@ -16,31 +16,28 @@ Tilt sensors consist of a rolling ball with a conductive plate beneath it. When 
 
 ## Features
 
-Tilt sensors produce an electrical signal proportional to the degree of inclination with respect to one or more axes.
-These sensors are used to measure slope and tilt within a limited range of motion.
-Tilt sensors are available in different types, such as force balance sensor, MEMS sensor, and fluid-filled sensor.
-These sensors are compatible with an operating voltage of 3.3V5V, and they have a sensitivity range of 1545 degrees.
+- Tilt sensors produce an electrical signal proportional to the degree of inclination with respect to one or more axes.
+- These sensors are used to measure slope and tilt within a limited range of motion.
+- Tilt sensors are available in different types, such as force balance sensor, MEMS sensor, and fluid-filled sensor.
+- These sensors are compatible with an operating voltage of 3.3V5V, and they have a sensitivity range of 1545 degrees.
 
-Applications of Tilt Sensor
-Cameras
-Video Cameras
-Aircraft Flight Control
-Construction Equipment
-Robotic Technology
-Automobile Air Bags
-Video Game Controllers
-Studying Human Movement
-Thermostats
-Automobile Security System
+  - Applications of Tilt Sensor
+  - Cameras
+  - Video Cameras
+  - Aircraft Flight Control
+  - Construction Equipment
+  - Robotic Technology
+  - Automobile Air Bags
+  - Video Game Controllers
+  - Studying Human Movement
+  - Thermostats
+  - Automobile Security System
 
 ## Statistics
 
+| | |
+| -------------- | --------------- |
 |I/O Pins       |Digital Output|
-|---------------|--------------|
-
 |Length x Width|30mm x 16mm|
-|---------------|--------------|
-
 |Operating Voltage |3.3V~5V|
-|---------------|--------------|
 |Sensitivity|15~45 degrees|
