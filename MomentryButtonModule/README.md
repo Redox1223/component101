@@ -1,4 +1,4 @@
-# Push Button Module
+# C0023 - Push Button Module
 
 The push button module is an Arduino compatible sensor that allows you to control your Arduino project with the press of a button. It is a simple input device that can be used in a variety of projects.
 
@@ -27,4 +27,6 @@ The push button module consists of a simple push button switch that can be used 
 
 ## Statistics
 
-The push button module has a black PCB board and is made of high-quality PCB material. It provides a digital switch output of 0 and 1, and can be connected to any digital pin on an Arduino board. The module is a simple and cost-effective solution for adding push button input to your Arduino projects.
+- The push button module has a black PCB board and is made of high-quality PCB material. 
+- It provides a digital switch output of 0 and 1, and can be connected to any digital pin on an Arduino board. 
+- The module is a simple and cost-effective solution for adding push button input to your Arduino projects.
