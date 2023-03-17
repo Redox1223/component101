@@ -1,7 +1,7 @@
 
 
 
-const int PIN_TO_SENSOR= 2; // the pin that OUTPUT pin of sensor is connected to 
+const int PIN_TO_SENSOR = 2; // the pin that OUTPUT pin of sensor is connected to 
 int pinStateCurrent = LOW; // current state of pin
 int pinStatePrevious = LOW; // previous state of pin
 
