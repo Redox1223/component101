@@ -2,7 +2,7 @@
 
 In this project is discribe arduino component review.
 
-| No    | Component                                                              | Status | Step 01 | Step 02 |
+| No    | Component                                                              | Status | Step 01 | Test_code |
 | ----- | ---------------------------------------------------------------------- | ------ | ------- | ------- |
 | C0001 | [Light sensor](/LightSensor)                                           | ✅  | ✅ |✅ |
 | C0002 | [Motion sensor](/MotionSensor)                                         | ✅  | ✅ |✅ |
