@@ -2,10 +2,10 @@
 
 In this project is discribe arduino component review.
 
-| No    | Component                                                              | Status | Step 01 |
-| ----- | ---------------------------------------------------------------------- | ------ | ------- |
-| C0001 | [Light sensor](/LightSensor)                                           | ✅ | ✅ |
-| C0002 | [Motion sensor](/MotionSensor)                                         | ✅  | ✅ |
+| No    | Component                                                              | Status | Step 01 | Test_code |
+| ----- | ---------------------------------------------------------------------- | ------ | ------- | ------- |
+| C0001 | [Light sensor](/LightSensor)                                           | ✅  | ✅ |✅ |
+| C0002 | [Motion sensor](/MotionSensor)                                         | ✅  | ✅ |✅ |
 | C0003 | [Temperature sensor](/TemperatureSensor)                               | ✅  | ✅ |
 | C0004 | [Magnetic fields sensor](/MagneticFeildSensor)                         | ✅  | ✅ |
 | C0005 | [Gravity Sensor](/GravitySensor)                                       | ✅  | ✅ |
