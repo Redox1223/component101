@@ -1,7 +1,7 @@
 // This code shows how to read the tds value and calibrate it with the standard buffer solution.
 
 #include <EEPROM.h>
-#include "GravityTDS.h"
+#include <GravityTDS.h>
 
 #define TdsSensorPin A1
 GravityTDS gravityTds;
@@ -21,7 +21,7 @@ void setup()
 
 void loop()
 {
-    // temperature = readTemperature();// add your temperature sensor and read it.
+    temperature = readTemperature(); // add your temperature sensor and read it.
     gravityTds.setTemperature(temperature);//set the temperature and execute temperature compensation
     gravityTds.update();//sample and calculate
     gravityTds.update();// then get the value

@@ -1,7 +1,7 @@
+// Calculate temperature from analog volt from LM35 sensor
 
-
-float temp;
-int tempPin=0;
+float temp = 0;
+int tempPin = 0;
 
 void setup()
 {
@@ -10,9 +10,9 @@ void setup()
 }
 void loop(){
 
-    temp= analogRead(tempPin);
+    temp = analogRead(tempPin);
     // read analog volt from sensor and save to variable temp
-    temp= temp*0.48828125;
+    temp = temp*0.48828125;
     // convert the analog volt to its temperature equivalent
     Serial.print("TEMPERATURE= ");
     Serial.print(temp);//display temperature value

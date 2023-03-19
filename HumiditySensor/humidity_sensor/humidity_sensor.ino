@@ -1,4 +1,7 @@
-#include "DHT.h"
+// Humidity and Temperature Sensor DHT11
+
+#include <DHT.h>
+
 #define DHTPIN 2
 #define DHTTYPE DHT 11
 
