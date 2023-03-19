@@ -110,4 +110,5 @@ void writeRegister(byte thisRegister, byte thisValue)
     SPI.transfer(dataToSend); // Send register location
     SPI.transfer(thisValue);  // Send value to recorf into register take the chip select high to de-select:
     digitalWrite(chipSelectPin, HIGH);
+
 }
