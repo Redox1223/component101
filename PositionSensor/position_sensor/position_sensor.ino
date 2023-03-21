@@ -1,8 +1,8 @@
 // MLX90316 Rotary Position Sensor
 
 // in this sketch the sensor does not communicates using the "SPI.h library"
-#include "Metro.h"
-#include "MLX90316.h"
+#include <Metro.h>
+#include <MLX90316.h>
 
 int pin_SS = 10;
 int pinSCLK = 13;
