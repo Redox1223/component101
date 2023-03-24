@@ -6,8 +6,8 @@
 int counter =0;
 int currentStateCLK;
 int lastStateCLK;
-String currentDir="";
-unsigned long lastButtonPress=0;
+String currentDir = "";
+unsigned long lastButtonPress = 0;
 
 void setup()
 {
