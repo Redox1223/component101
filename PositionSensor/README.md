@@ -27,12 +27,15 @@ A rotary encoder position sensor is a type of sensor that measures the rotation 
 ## To connect a rotary encoder position sensor to an Arduino circuit, follow the steps below
 
 - Rotary Encoder Position Sensor Circuit Diagram
-
-- Connect the GND pin on the rotary encoder to the GND pin on the Arduino.
-- Connect the +V pin on the rotary encoder to the 5V pin on the Arduino.
-- Connect one of the two output pins on the rotary encoder to digital input pin 2 on the Arduino.
-- Connect the other output pin on the rotary encoder to digital input pin 3 on the Arduino.
-- Use the attachInterrupt() function in the Arduino code to detect changes on the output pins and increment/decrement a position counter variable.
-- Note: This is a basic circuit diagram and the actual connections may vary depending on the specific sensor being used and the application it is being used for.
+- pin 1 = Vdd - 5v dc
+- pin 2 = Ground
+- pin 3 = _SS, is a 5v tolerant digital input
+- pin 4 = SCLK, is a 5v tolerant digital input
+- pin 5 = MOSI, is a 5v tolerant digital input/output
+- pin 6 = Ground
+- pin 7 = Vdig
+- pin 8 = Ground
+- note: pin 1 and pin 7 connect with Ground with capacitor.
+ This is a basic circuit diagram and the actual connections may vary depending on the specific sensor being used and the application it is being used for.
 
 - Always refer to the datasheet or manufacturer's instructions for the correct wiring and usage of the sensor.

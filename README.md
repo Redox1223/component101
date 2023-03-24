@@ -2,19 +2,19 @@
 
 In this project is discribe arduino component review.
 
-| No    | Component                                                              | Status | Step 01 | Test_code |
+| No    | Component                                                              | Status | Step 01 |Test_code|
 | ----- | ---------------------------------------------------------------------- | ------ | ------- | ------- |
-| C0001 | [Light sensor](/LightSensor)                                           | ✅  | ✅ |✅ |
-| C0002 | [Motion sensor](/MotionSensor)                                         | ✅  | ✅ |✅ |
-| C0003 | [Temperature sensor](/TemperatureSensor)                               | ✅  | ✅ |
+| C0001 | [Light sensor](/LightSensor)                                           | ✅  | ✅ | ✅ |
+| C0002 | [Motion sensor](/MotionSensor)                                         | ✅  | ✅ | ✅ |
+| C0003 | [Temperature sensor](/TemperatureSensor)                               | ✅  | ✅ | ✅ |
 | C0004 | [Magnetic fields sensor](/MagneticFeildSensor)                         | ✅  | ✅ |
-| C0005 | [Gravity Sensor](/GravitySensor)                                       | ✅  | ✅ |
-| C0006 | [Humidity sensor](/MagneticFeildSensor)                                | ✅  | ✅ |
-| C0007 | [Moisture sensor](/MoistureSensor)                                     | ✅  | ✅ |
-| C0008 | [Vibration sensor](/VibrationSensor)                                   | ✅  | ✅ |
-| C0009 | [Vibration sensor](/VibrationSensorArduino)                            | ✅  | ✅ |
-| C0010 | [Pressure sensor Arduino](/PressureSensor)                             | ✅  | ✅ |
-| C0011 | [Electrical fields sensor](/ElectromagneticFieldSensor)                | ✅  | ✅ |
+| C0005 | [Gravity Sensor](/GravitySensor)                                       | ✅  | ✅ | ✅ |
+| C0006 | [Humidity sensor](/MagneticFeildSensor)                                | ✅  | ✅ | ✅ |
+| C0007 | [Moisture sensor](/MoistureSensor)                                     | ✅  | ✅ | ✅ |
+| C0008 | [Vibration sensor](/VibrationSensor)                                   | ✅  | ✅ | ✅ |
+| C0009 | [Vibration sensor](/VibrationSensorArduino)                            | ✅  | ✅ | ✅ |
+| C0010 | [Pressure sensor Arduino](/PressureSensor)                             | ✅  | ✅ | ✅ |
+| C0011 | [Electrical fields sensor](/ElectromagneticFieldSensor)                | ✅  | ✅ | ✅ |
 | C0012 | [Sound sensor](/SoundSensor)                                           | ✅  | ✅ |
 | C0013 | [Position sensor](/PositionSensor/)                                    | ✅  | ✅ |
 | C0014 | [Water Level Sensor (Leak Sensor)](/WaterLevelSensor)                  | ✅  | ✅ |
