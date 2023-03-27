@@ -1,7 +1,7 @@
 // define the pin numbers for the LEDs and switch
-int ledOpen=8;
-int ledClose=10;
-int switchRead=6;
+int ledOpen = 8;
+int ledClose = 10;
+int switchRead = 6;
 
 void setup(){
     // set the pin modes for the LEDs and switch
