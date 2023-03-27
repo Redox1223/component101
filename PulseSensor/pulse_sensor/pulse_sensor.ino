@@ -1,6 +1,6 @@
 int const PULSE_SENSOR_PIN = 0; //'S' signal pin connected to A0
 
-int Signal;          // store incoming ADC data.value can range from 0 - 1024
+int Signal = 0;          // store incoming ADC data.value can range from 0 - 1024
 int Threshold = 550; // determine which signal to "count as a beat" and which to ingore
 
 void setup()
