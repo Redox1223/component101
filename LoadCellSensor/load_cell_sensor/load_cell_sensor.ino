@@ -1,5 +1,5 @@
 // calibrating the load cell
-#include "HX711.h"
+#include <HX711.h>
 
 // HX711 circuit wiring
 const int LOADCELL_DOUT_PIN = 2;
