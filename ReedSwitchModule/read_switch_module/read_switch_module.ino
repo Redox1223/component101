@@ -1,6 +1,4 @@
 // declear the Arduino pins
-const int REED_PIN = 2;
-const int LED_PIN = 13;
 
 void setup()
 {
@@ -15,12 +13,10 @@ void loop()
     // if the pin read low,the switch is closed
     if (proximaty == LOW)
     {
-        Serial.println("switch closed");
-        digitalWrite(LED_PIN, HIGH); // turn the LED on
+        Serial.println("switch closed"); // print serial monitor
     }
     else
     {
-        Serial.println("Switch opened");
-        digitalWrite(LED_PIN, LOW); // turn the LED off
+        Serial.println("Switch opened"); // print serial monitor
     }
 }
