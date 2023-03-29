@@ -9,6 +9,6 @@ void loop(){
     digitalWrite(control,HIGH); // turn the MOSFET switch ON
     delay(2000); // wait for 2000 ms or 2 second
 
-    digitalWrite( control,LOW); // turn the MOSFET switch OFF
+    digitalWrite(control,LOW); // turn the MOSFET switch OFF
     delay(2000); // wait for 2000 ms or 2 second
     }
