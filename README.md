@@ -48,12 +48,12 @@ In this project is discribe arduino component review.
 | C0042 | [PH Sensor](/PHSensor)                                                 | ✅  | ✅ | ✅ |
 | C0043 | [Reed Switch Module](/ReedSwitchModule)                                | ✅  | ✅ | ✅ |
 | C0044 | [Laser Module](/LaserModule)                                           | ✅  | ✅ | ✅ |
-| C0045 | [Liquid crystal displays (LCDs)](/LiquidCrystalSensor)                 | ✅  | ✅ | 
+| C0045 | [Liquid crystal displays (LCDs)](/LiquidCrystalSensor)                 | ✅  | ✅ |
 | C0046 | [GSM Module](/GSMmodule)                                               | ✅  | ✅ | ✅ |
-| C0047 | [Flinger Print Scanner](/FingerPrintSensor)                            | ✅  | ✅ |
-| C0048 | [QR Reader](/QRReader)                                                 | ✅  | ✅ |
-| C0049 |[Accelerometer and  Gyroscope Sensor](/AccelerometerAndGyroscopeSensor)                                                 | ✅  | ✅ |
-| C0050 | [Rain Sensor](/RainSensor)                                             | ✅  | ✅ |  
+| C0047 | [Flinger Print Scanner](/FingerPrintSensor)                            | ✅  | ✅ | ✅ |
+| C0048 | [QR Reader](/QRReader)                                                 | ✅  | ✅ | ✅ |
+| C0049 |[Accelerometer and  Gyroscope Sensor](/AccelerometerAndGyroscopeSensor)                                                 | ✅  | ✅ | ✅ |
+| C0050 | [Rain Sensor](/RainSensor)                                             | ✅  | ✅ | ✅ |
 
 ## License
 
