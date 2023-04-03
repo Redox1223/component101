@@ -7,7 +7,7 @@ In this project is discribe arduino component review.
 | C0001 | [Light sensor](/LightSensor)                                           | ✅  | ✅ | ✅ |
 | C0002 | [Motion sensor](/MotionSensor)                                         | ✅  | ✅ | ✅ |
 | C0003 | [Temperature sensor](/TemperatureSensor)                               | ✅  | ✅ | ✅ |
-| C0004 | [Magnetic fields sensor](/MagneticFeildSensor)                         | ✅  | ✅ |
+| C0004 | [Magnetic fields sensor](/MagneticFeildSensor)                         | ✅  | ✅ | ✅ |
 | C0005 | [Gravity Sensor](/GravitySensor)                                       | ✅  | ✅ | ✅ |
 | C0006 | [Humidity sensor](/MagneticFeildSensor)                                | ✅  | ✅ | ✅ |
 | C0007 | [Moisture sensor](/MoistureSensor)                                     | ✅  | ✅ | ✅ |
