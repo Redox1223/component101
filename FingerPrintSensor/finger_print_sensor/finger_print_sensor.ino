@@ -17,6 +17,7 @@ void setup()
         Serial.println("Fingerprint sensor not found");
         while (1)
         {
+        // do nothing
         }
     }
 
