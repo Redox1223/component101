@@ -7,7 +7,7 @@ In this project is discribe arduino component review.
 | C0001 | [Light sensor](/LightSensor)                                           | ✅  | ✅ | ✅ |
 | C0002 | [Motion sensor](/MotionSensor)                                         | ✅  | ✅ | ✅ |
 | C0003 | [Temperature sensor](/TemperatureSensor)                               | ✅  | ✅ | ✅ |
-| C0004 | [Magnetic fields sensor](/MagneticFeildSensor)                         | ✅  | ✅ |
+| C0004 | [Magnetic fields sensor](/MagneticFeildSensor)                         | ✅  | ✅ | ✅ |
 | C0005 | [Gravity Sensor](/GravitySensor)                                       | ✅  | ✅ | ✅ |
 | C0006 | [Humidity sensor](/MagneticFeildSensor)                                | ✅  | ✅ | ✅ |
 | C0007 | [Moisture sensor](/MoistureSensor)                                     | ✅  | ✅ | ✅ |
@@ -48,12 +48,12 @@ In this project is discribe arduino component review.
 | C0042 | [PH Sensor](/PHSensor)                                                 | ✅  | ✅ | ✅ |
 | C0043 | [Reed Switch Module](/ReedSwitchModule)                                | ✅  | ✅ | ✅ |
 | C0044 | [Laser Module](/LaserModule)                                           | ✅  | ✅ | ✅ |
-| C0045 | [Liquid crystal displays (LCDs)](/LiquidCrystalSensor)                 | ✅  | ✅ | 
+| C0045 | [Liquid crystal displays (LCDs)](/LiquidCrystalSensor)                 | ✅  | ✅ |
 | C0046 | [GSM Module](/GSMmodule)                                               | ✅  | ✅ | ✅ |
-| C0047 | [Flinger Print Scanner](/FingerPrintSensor)                            | ✅  | ✅ |
-| C0048 | [QR Reader](/QRReader)                                                 | ✅  | ✅ |
-| C0049 |[Accelerometer and  Gyroscope Sensor](/AccelerometerAndGyroscopeSensor)                                                 | ✅  | ✅ |
-| C0050 | [Rain Sensor](/RainSensor)                                             | ✅  | ✅ |  
+| C0047 | [Flinger Print Scanner](/FingerPrintSensor)                            | ✅  | ✅ | ✅ |
+| C0048 | [QR Reader](/QRReader)                                                 | ✅  | ✅ | ✅ |
+| C0049 |[Accelerometer and  Gyroscope Sensor](/AccelerometerAndGyroscopeSensor)                                                 | ✅  | ✅ | ✅ |
+| C0050 | [Rain Sensor](/RainSensor)                                             | ✅  | ✅ | ✅ |
 
 ## License
 
