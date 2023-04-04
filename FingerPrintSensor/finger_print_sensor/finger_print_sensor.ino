@@ -15,9 +15,9 @@ void setup()
     if (!finger.verifyPassword())
     {
         Serial.println("Fingerprint sensor not found");
-        while (1)
+
+        while (1)// infinite loop that prevents the program from continuing if the fingerprint sensor is not found.
         {
-        // do nothing
         }
     }
 
