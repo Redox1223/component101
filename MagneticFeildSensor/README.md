@@ -19,12 +19,24 @@ Magnetic field sensors are electronic devices that detect and measure magnetic f
 
 ## Features
 
-- The Honeywell 2SS52M is a compact device with three pins – GND, VCC, and an output pin. 
-- It is highly sensitive to magnetic fields and can detect them even when they are weak. 
+- The Honeywell 2SS52M is a compact device with three pins – GND, VCC, and an output pin.
+- It is highly sensitive to magnetic fields and can detect them even when they are weak.
 - The sensor is compatible with a variety of electronic devices and can be used in many different applications, such as position sensing, current sensing, and rotational sensing.
 
 ## Statistics
 
-- Unfortunately, as a language model, I do not have access to real-time statistics on the Honeywell 2SS52M or other magnetic field sensors. 
-- However, I can tell you that there are many different types of magnetic field sensors available on the market, each with their own unique features and specifications. 
-- When choosing a sensor, it is important to consider factors such as sensitivity, accuracy, and response time to ensure that it is well-suited for your specific application.
+Sensitivity: Magnetic fields sensor have a sensitivity rating, typically expressed in millivolts per Gauss (mV/G). This rating indicates how much the sensor's output voltage changes in response to changes in the magnetic field strength.
+
+Operating Voltage: Magnetic fields sensor often work within a specific voltage range, such as 3.3V or 5V, depending on the module and manufacturer.
+
+Output Type: Magnetic fields sensor typically provide a digital output (high or low) when a specific magnetic field threshold is reached. Some modules also offer analog output, providing a voltage proportional to the magnetic field strength.
+
+Maximum Current: Magnetic fields sensor may have a maximum current rating for the load they can drive. This is important if you're using the sensor to control external devices.
+
+Response Time: The response time of a Magnetic fields sensor is the time it takes to detect changes in the magnetic field and produce an output response. It is typically quite fast.
+
+Hysteresis: Some Magnetic fields sensor exhibit hysteresis, meaning they may have slightly different output values for the same magnetic field strength depending on whether the magnetic field is increasing or decreasing.
+
+Operating Temperature Range: The sensor's performance can be influenced by temperature, so it's important to consider the operating temperature range if you plan to use it in extreme conditions.
+
+Mounting Options: Depending on the module, Magnetic fields sensor may come in various shapes and sizes, with different mounting options.
