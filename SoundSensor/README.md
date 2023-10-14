@@ -1,45 +1,48 @@
 # C0012-Sound sensor
 
-## Introduction to sound sensor,
+## Introduction to sound sensor
 
 A sound sensor, also known as a sound detector or sound sensor module, is an electronic device that is capable of detecting sound waves and converting them into electrical signals. These sensors are commonly used in various applications where the detection or measurement of sound is required. Sound sensors are crucial components in many electronic systems, enabling devices to respond to auditory cues or detect sound levels in the surrounding environment. Here are some key points about sound sensors:
 
-## How Sound Sensors Work,
+## How Sound Sensors Work
 Sound sensors typically consist of a microphone element that captures sound waves and converts them into electrical signals. These signals can then be amplified and processed by electronic circuitry. The sensitivity of the sensor determines its ability to detect different levels of sound.
 
-## Types of Sound Sensors,
-Analog Sound Sensors: Analog sound sensors provide an analog voltage or current output that varies proportionally with the sound level detected. The output signal can be processed by microcontrollers or other analog electronics.
+## Types of Sound Sensors
 
-## Digital Sound Sensors: 
-Digital sound sensors provide a binary output (high/low) based on a predefined sound threshold. When the sound level exceeds the set threshold, the sensor triggers a digital signal, indicating the presence of sound.
+- Analog Sound Sensors
+--Analog sound sensors provide an analog voltage or current output that varies proportionally with the sound level detected. The output signal can be 
+  processed by microcontrollers or other analog electronics.
 
-## Applications of Sound Sensors,
+- Digital Sound Sensors
+--Digital sound sensors provide a binary output (high/low) based on a predefined sound threshold. When the sound level exceeds the set threshold, the sensor 
+  triggers a digital signal, indicating the presence of sound.
 
-## Security Systems:
-Sound sensors are used in security systems to detect abnormal sounds, such as glass breaking or alarms, triggering appropriate responses.
+## Applications of Sound Sensors
 
-## Home Automation:
-Sound sensors can be integrated into smart home systems to respond to voice commands or detect specific sounds within the home environment.
+- Security Systems
+--Sound sensors are used in security systems to detect abnormal sounds, such as glass breaking or alarms, triggering appropriate responses.
 
-## Industrial Applications:
-Sound sensors are used in industrial automation to monitor machinery and equipment. Unusual sounds can indicate mechanical issues or malfunctions.
+- Home Automation
+--Sound sensors can be integrated into smart home systems to respond to voice commands or detect specific sounds within the home environment.
 
-## Noise Pollution Monitoring:
-Sound sensors are employed in environmental monitoring systems to measure noise pollution levels in urban areas. This data is used for city planning and noise regulation purposes.
+- Industrial Applications
+--Sound sensors are used in industrial automation to monitor machinery and equipment. Unusual sounds can indicate mechanical issues or malfunctions.
 
-## Robotics:
-Sound sensors are used in robots to enable them to respond to voice commands or to detect specific sounds, allowing for interactive and responsive behavior.
+- Noise Pollution Monitoring
+--Sound sensors are employed in environmental monitoring systems to measure noise pollution levels in urban areas. This data is used for city planning and 
+  noise regulation purposes.
 
-## Consumer Electronics:
-Sound sensors are used in devices like voice-activated assistants, toys, and gadgets to detect voice commands or specific sound patterns.
+- Robotics
+--Sound sensors are used in robots to enable them to respond to voice commands or to detect specific sounds, allowing for interactive and responsive behavior.
 
-## Automotive:
-Sound sensors can be used in vehicles for hands-free calling, noise cancellation, or to trigger alarms based on specific sounds, such as honking or sirens.
+- Consumer Electronics:
+--Sound sensors are used in devices like voice-activated assistants, toys, and gadgets to detect voice commands or specific sound patterns.
 
-## Healthcare:
-Sound sensors can be used in medical devices for monitoring patient breathing patterns or detecting specific medical alarms, indicating critical situations.
+- Automotive:
+--Sound sensors can be used in vehicles for hands-free calling, noise cancellation, or to trigger alarms based on specific sounds, such as honking or sirens.
 
-Sound sensors play a vital role in enhancing the functionality and interactivity of various electronic systems, making them responsive to auditory cues and enabling a wide range of applications across different industries.
+- Healthcare:
+--Sound sensors can be used in medical devices for monitoring patient breathing patterns or detecting specific medical alarms, indicating critical situations.
 
 ## Image
 
@@ -47,7 +50,7 @@ Sound sensors play a vital role in enhancing the functionality and interactivity
 
 ## How to connect to a circuit
 
-To connect a Sound Sensor to a circuit, you need to connect the following components:
+To connect a Sound Sensor to a circuit, you need to connect the following components
 
 - The VCC pin of the module to the positive (+) rail of the breadboard.
 - The GND pin of the module to the negative (-) rail of the breadboard.
@@ -58,7 +61,7 @@ To connect a Sound Sensor to a circuit, you need to connect the following compon
 
 ## Features
 
-Some of the key features of a Sound Sensor include:
+Some of the key features of a Sound Sensor include
 
 - Detects sound waves in a particular area
 - Converts the signal to a digital or analog output
