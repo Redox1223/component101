@@ -37,7 +37,8 @@ A position sensor is a device that detects and measures the physical position or
 
 ## Applications of Position Sensors
 
-- Robotics: Position sensors are used in robotic systems to monitor the position and movement of robotic arms and joints.
+- Robotics
+--Position sensors are used in robotic systems to monitor the position and movement of robotic arms and joints.
 
 - Automotive
 --Position sensors are used in vehicles for applications such as throttle position sensing, gear shifting, and suspension system monitoring.
