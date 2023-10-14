@@ -17,8 +17,9 @@ There are different types of moisture sensors, including
  - Capacitance-based sensors
  -- These sensors measure the soil's ability to store an electrical charge (capacitance). Moist soil has higher capacitance compared to dry soil, allowing these sensors to estimate moisture content.
 
-    Time domain reflectometry (TDR) sensors
-    --TDR sensors send electromagnetic pulses down a probe inserted into the soil. The time it takes for the pulses to travel back to the sensor correlates with soil moisture content.
+- Time domain reflectometry (TDR) sensors
+--TDR sensors send electromagnetic pulses down a probe inserted into the soil. The time it takes for the pulses to travel back to the sensor correlates with 
+  soil moisture content.
 
 - Frequency domain reflectometry (FDR) sensors
 --Similar to TDR sensors, FDR sensors measure soil moisture by analyzing the frequency of electromagnetic waves sent through the soil.
