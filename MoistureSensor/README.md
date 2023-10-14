@@ -1,29 +1,29 @@
 # C0007-Moisture sensor
 
-## Instroduction to moisture sensor:
+## Instroduction to moisture sensor
 
  Moisture sensors are devices designed to measure the moisture content in soil, concrete, or other materials. 
  
- ## What are they used for:
- They are commonly used in various applications, including agriculture, horticulture, construction, and environmental monitoring. These sensors provide valuable data about the soil or material's moisture level, helping farmers, gardeners, and engineers make informed decisions.
+ ## What are moisture sensors used for?
+Moisture sensors are commonly used in various applications, including agriculture, horticulture, construction, and environmental monitoring. These sensors provide valuable data about the soil or material's moisture level, helping farmers, gardeners, and engineers make informed decisions.
 
 In agriculture and horticulture, moisture sensors are often used to monitor soil moisture levels to ensure proper irrigation. By measuring the soil moisture content, farmers can determine the right amount of water their crops need, preventing overwatering or underwatering, which can both be detrimental to plant growth.
 
-There are different types of moisture sensors, including:
+There are different types of moisture sensors, including
 
-## Resistance-based sensors:
+## Resistance-based sensors
 These sensors measure the electrical conductivity between two electrodes. When the soil is moist, it conducts electricity better, leading to lower resistance readings.
 
-## Capacitance-based sensors:
+## Capacitance-based sensors
 These sensors measure the soil's ability to store an electrical charge (capacitance). Moist soil has higher capacitance compared to dry soil, allowing these sensors to estimate moisture content.
 
-## Time domain reflectometry (TDR) sensors:
+## Time domain reflectometry (TDR) sensors
 TDR sensors send electromagnetic pulses down a probe inserted into the soil. The time it takes for the pulses to travel back to the sensor correlates with soil moisture content.
 
-## Frequency domain reflectometry (FDR) sensors: 
+## Frequency domain reflectometry (FDR) sensors
 Similar to TDR sensors, FDR sensors measure soil moisture by analyzing the frequency of electromagnetic waves sent through the soil.
 
-## Gravimetric sensors:
+## Gravimetric sensors
 These sensors determine soil moisture content by weighing a soil sample before and after drying it, calculating the difference in weight to determine the moisture content.
 
 Moisture sensors play a crucial role in resource conservation and efficient agricultural practices, allowing for optimal water usage and healthier plant growth.
@@ -32,7 +32,7 @@ Moisture sensors play a crucial role in resource conservation and efficient agri
 
 ![IMG](IMG/IMG.png)
 
-## How to connect to a circuit
+## How to connect to it to a circuit
 
 To connect the moisture sensor to a circuit, follow these steps:
 
