@@ -46,22 +46,30 @@ Sound sensors typically consist of a microphone element that captures sound wave
 
 ## Image
 
-![IMG](IMG/IMG.png)
+![image](https://github.com/RPSTD/component101/assets/147227378/ef435b9b-6c71-48b9-8f86-da8c2642ce3b)
 
-## How to connect to a circuit
 
-To connect a Sound Sensor to a circuit, you need to connect the following components
+## How to connect to a circuit,
 
-- The VCC pin of the module to the positive (+) rail of the breadboard.
-- The GND pin of the module to the negative (-) rail of the breadboard.
-- The DOUT pin of the module to a digital input pin of the Arduino.
-- The AOUT pin of the module to an analog input pin of the Arduino.
-- The theory behind the components
+To connect a Sound Sensor to a circuit, you will need the following components
+1. Sound Sensor module.
+2. Arduino Board.
+3. 5x  -  Led bulbs( Any colour you like ).
+4. 5x  -  lK resistors.
+5. 14x -  Jumper Wires.
+
+- Connect the VCC pin of the module the positive (+) to the 5v of the Arduino board
+- Connect the Gnd negative (-) pin of the module to Gnd of the Arduino board.
+- Connect the AOUT (AO) pin of the module to the AO of the Arduino board.5
+- For the rest observe the image above carefully.
+
+
+# The theory behind the components
 - The microphone detects sound waves and converts them to an analog signal, which is fed into an op-amp for amplification and conversion to a digital or analog output. The potentiometer on the module allows you to adjust the sound level set point.
 
 ## Features
 
-Some of the key features of a Sound Sensor include
+Some of the key features of a Sound Sensor includes,
 
 - Detects sound waves in a particular area
 - Converts the signal to a digital or analog output
