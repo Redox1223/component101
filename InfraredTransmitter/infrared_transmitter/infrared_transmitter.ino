@@ -1,19 +1,26 @@
-#include <IRremote.h>
+/*** www.arduinopoint.com ***/
+/*** Arduino with IR Sensor ***/
 
-const int RECV_PIN = 7;
-IRrecv irrecv (RECV_PIN);
-decode_result results;
+int SensorPin = 2;
+int OutputPin = 13;
 
-void setup(){
-    Serial.begin(9600);
-    irrecv.enableIRIn();
-    irrecv.blink13(true);
-
+void setup() {
+  pinMode(OutputPin, OUTPUT);
+  pinMode(SensorPin, INPUT);
+  Serial.begin(9600);
 }
-void loop()
-{
-    if (irrecv.decode(&results)){
-        Serial.println(results.value,HEX);
-        irrecv.resume();
-    }
+
+void loop() {
+  int SensorValue = digitalRead(SensorPin);
+  
+  Serial.print("SensorPin Value: ");
+  Serial.println(SensorValue);
+  delay(1000);
+   if (SensorValue==LOW){ // LOW MEANS Object Detected
+    digitalWrite(OutputPin, HIGH);
+  }
+  else
+  {
+    digitalWrite(OutputPin, LOW); 
+  }
 }
