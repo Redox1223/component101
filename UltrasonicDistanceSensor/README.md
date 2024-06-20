@@ -1,6 +1,25 @@
 # C0015-Ultrasonic Distance Sensor
 
-The HC-SR04 ultrasonic distance sensor is a commonly used sensor for measuring distances from 2cm to 400cm (about an inch to 13 feet). It works based on the principle of sending and receiving ultrasonic sound waves, similar to SONAR used in submarines. The sensor is affordable, easy to use, and provides accurate distance measurements with a high resolution of 3mm.
+## Introduction to Ultra sonioc sensor
+
+An ultrasonic distance sensor, also known as an ultrasonic ranging module or ultrasonic sensor, is a type of sensor that measures the distance between the sensor and an object using ultrasonic waves. These sensors use the principle of echolocation, similar to how bats, dolphins and Beluga whales navigate by emitting sound waves and measuring the time it takes for the waves to bounce back after hitting an object.
+
+## How Ultra sonic sensors work 
+
+- Transmitter 
+--The sensor emits a short ultrasonic pulse.
+
+- Traveling of the Pulse
+--This pulse travels through the air and hits an object.
+
+- Reflection of the Pulse 
+--The pulse bounces back off the object and returns to the sensor.
+
+- Receiver 
+--The sensor's receiver detects the reflected pulse.
+
+- Calculation of Distance 
+--By knowing the speed of sound in the air (which is approximately 343 meters per second or 1125 feet per second at room temperature), the sensor can calculate the time it took for the pulse to travel to the object and back. Using this time and the speed of sound, the sensor can calculate the distance to the object.
 
 ## Image
 
